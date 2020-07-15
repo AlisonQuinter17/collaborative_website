@@ -1,1 +1,1 @@
-# collaborative_website
+# Tips section
