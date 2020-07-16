@@ -1,1 +1,1 @@
-# Home > news section
+# Repository description
