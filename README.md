@@ -1,1 +1,1 @@
-# Repository description
+# Training Section
