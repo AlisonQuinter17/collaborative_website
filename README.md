@@ -1,1 +1,1 @@
-# Project Description
+# Tips Section
