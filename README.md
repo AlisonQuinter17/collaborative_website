@@ -1,1 +1,1 @@
-# Training Section
+# Programs Section
