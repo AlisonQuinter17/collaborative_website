@@ -1,1 +1,1 @@
-# Repository description
+# Tips Section
