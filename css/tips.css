@@ -1,1 +1,11 @@
 /* Styles */
+.img-tips {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+.espacio__secciones {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
