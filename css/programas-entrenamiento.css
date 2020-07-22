@@ -1,0 +1,30 @@
+@import 'responsivep.css';
+
+
+
+.box {
+
+    border: 1px solid;
+    height: 198px;
+    padding-bottom: 5px;
+    overflow: hidden;
+
+}
+
+.imagen {
+
+    object-fit: cover;
+}
+
+.relativo {
+    position: relative;
+}
+
+.absoluto {
+    position: absolute;
+}
+
+.position1 {
+    top: 100px;
+    left: 30px;
+}
