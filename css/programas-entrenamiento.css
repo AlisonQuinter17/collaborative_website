@@ -5,7 +5,7 @@
 .box {
 
     border: 1px solid;
-    height: 198px;
+
     padding-bottom: 5px;
     overflow: hidden;
 
@@ -24,7 +24,15 @@
     position: absolute;
 }
 
-.position1 {
-    top: 100px;
-    left: 30px;
+.posicion2 {
+    bottom: 15px;
+    right: 0;
+}
+
+.tamaño {
+    font-size: 15px;
+}
+
+.bg {
+    background-color: rgb(103, 188, 42);
 }
