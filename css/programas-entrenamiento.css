@@ -2,9 +2,14 @@
 
 
 
+
+.bg3 {
+    background-color: rgb(238, 246, 246);
+}
+
 .box {
 
-    border: 1px solid;
+
 
     padding-bottom: 5px;
     overflow: hidden;
@@ -35,4 +40,8 @@
 
 .bg {
     background-color: rgb(103, 188, 42);
+}
+
+.bg2 {
+    background-color: rgba(43, 178, 187, 0.335);
 }
