@@ -1,1 +1,14 @@
-/* Empty */
+.dropdown-contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 400ms ease-out;
+}
+
+.dropdown-personal:hover .dropdown-contenido {
+    background-color: rgba(255, 255, 255, 0.459);
+    max-height: 200px;
+}
+
+.container-md {
+    background-color: goldenrod;
+}
