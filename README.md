@@ -12,4 +12,3 @@ se crean hojas de css con diferentes propositos indicados acontinuacion:
     stylehome.css: Esta hoja de css contiene todos los estilos personalizados necesarios para adecuación de la 
                    pagina web.
 
-                    
