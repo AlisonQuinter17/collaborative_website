@@ -1,0 +1,48 @@
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {
+
+    .animation-line {
+        /* color: rgb(0, 0, 0); */
+        position: relative;
+
+    }
+
+    .animation-line:before {
+        position: absolute;
+        bottom: 0;
+        content: "";
+        /* display: block; */
+        width: 0;
+        height: 6px;
+        background-color: #eeeeee;
+        transition: all 300ms;
+    }
+
+    .animation-line:hover:before {
+        width: 100%;
+    }
+
+    .central:before {
+        left: 50%;
+    }
+
+    .central:before {
+        right: 50%;
+    }
+
+    .central:hover:before {
+        left: 0;
+    }
+
+    .central:before:before {
+        right: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {}

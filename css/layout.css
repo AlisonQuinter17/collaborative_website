@@ -1,0 +1,24 @@
+/*********************  Macro Layout  *******************************/
+.grid-layout {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-areas:
+        "header "
+        "main   "
+        "footer "
+    ;
+}
+
+.header-main {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main;
+}
+
+.footer-main {
+    grid-area: footer;
+}
+
+/*********************  Fin macro-layout  ***************************/
