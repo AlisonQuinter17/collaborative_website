@@ -1,0 +1,62 @@
+.nav--color {
+    background-color: #2bb2bb;
+}
+
+/********* estilos atom **********/
+/* aluz aguamarina */
+.aguamarina {
+    background-color: #2bb2bb;
+}
+
+.d-inbl {
+    display: inline-block;
+}
+
+.color-semiwhite {
+    color: #eeeeee;
+}
+
+/*********************************/
+.footer-main {
+    background-color: #272727;
+}
+
+
+.icon-text {
+    width: 100%;
+}
+
+
+
+.icon-facebook {
+    font-size: 58px;
+}
+
+.icon-twitter {
+    font-size: 54px;
+}
+
+.icon-instagram {
+    font-size: 54px;
+}
+
+.icon-youtube {
+    font-size: 60px;
+}
+
+hr {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    height: 2PX;
+    width: 80%;
+
+    padding: 0;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/***************************************/
