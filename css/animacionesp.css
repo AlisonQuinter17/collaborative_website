@@ -1,3 +1,8 @@
-.semana:hover animacion-calendario {
+.hermano2 {
+    display: none;
+    transition-duration: display 600ms;
+}
+
+.hermano1:active+.hermano2 {
     display: block;
 }
