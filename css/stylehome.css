@@ -2,6 +2,15 @@
     background-color: #2bb2bb;
 }
 
+.menu--personalizado {
+    position: absolute;
+    width: 100%;
+    background-color: #2bb2bb;
+    top: 100%;
+    left: 0;
+    height: calc(100vh - 25px);
+}
+
 /********* estilos atom **********/
 /* aluz aguamarina */
 .aguamarina {
