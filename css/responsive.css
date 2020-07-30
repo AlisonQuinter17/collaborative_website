@@ -2,24 +2,32 @@
 
 
 @media (min-width: 768px) {
+    .tarjeta {
+        width: 100%;
+        height: 94.59vh;
+    }
+
+
+
     .tittle-line {
         max-width: 350px;
     }
+
+    .footer-texte-size {
+        font-size: 1.258rem;
+    }
+
 }
 
 
 @media (min-width: 992px) {
-    .menu--personalizado {
-        /* position: block; */
-        /* width: max-content; */
-        /* background-color: #2bb2bb; */
-        top: 50%;
 
+    .menu--personalizado {
+        top: 50%;
         height: 0;
     }
 
     .animation-line {
-        /* color: rgb(0, 0, 0); */
         position: relative;
 
     }
@@ -53,6 +61,34 @@
 
     .central:before:before {
         right: 0;
+    }
+
+    /****** fin animacion **********/
+
+    .content-mp {
+        max-width: 100%;
+        margin-top: ;
+    }
+
+
+
+    .tarjeta {
+        width: 100%;
+        height: 450px;
+    }
+
+    .box-botton {
+        background-color: var(--verde);
+        width: 35%;
+        height: 40px;
+        position: absolute;
+        top: 75%;
+        right: 0;
+        box-shadow: -12px -2px 84px 0px rgba(0, 0, 0, 0.48);
+    }
+
+    .footer-texte-size {
+        font-size: 2rem;
     }
 
 }

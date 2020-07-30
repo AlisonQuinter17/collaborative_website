@@ -1,11 +1,18 @@
+:root {
+    --azul: #2bb2bb;
+    --blanco: #eeeeee;
+    --negro: #272727;
+    --verde: #67BC2A;
+}
+
 .nav--color {
-    background-color: #2bb2bb;
+    background-color: var(--azul);
 }
 
 /********* estilos atom **********/
 /* aluz aguamarina */
 .aguamarina {
-    background-color: #2bb2bb;
+    background-color: var(--azul);
 }
 
 .d-inbl {
@@ -13,7 +20,7 @@
 }
 
 .color-semiwhite {
-    color: #eeeeee;
+    color: var(--blanco);
 }
 
 .content-mp {
@@ -23,71 +30,77 @@
 .tittle-line {
     position: relative;
     top: -10px;
-    max-width: 30%;
+    max-width: 100%;
+}
+
+.footer-texte-size {
+    font-size: 0.75rem;
 }
 
 /*********************************/
 /******** seccion main principal*****/
 .box-card {
+    position: relative;
     width: 100%;
-    height: 300px;
-    background-color: darkred;
+    /* height: ; */
 }
 
 .tarjeta {
-    display: block;
-    background-color: blue;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.transparent {
-    width: 100%;
-    height: 5rem;
-    background-color: black;
-    position: relative;
-    bottom: 5rem;
+.box-botton {
+    background-color: var(--verde);
+    width: 25%;
+
+    height: 40px;
+    position: absolute;
+    /* top: 150px; */
+    top: 75%;
+    right: 0;
+    /* -webkit-box-shadow: -12px -2px 84px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -12px -2px 84px 0px rgba(0, 0, 0, 0.48); */
+    box-shadow: -12px -2px 84px 0px rgba(0, 0, 0, 0.48);
+}
+
+.botton-vermas {
+    text-decoration: none;
 }
 
 /*************************************/
-/********* seccion atom**********************/
 .footer-main {
-    background-color: #272727;
+    background-color: var(--negro);
 }
-
 
 .icon-text {
     width: 100%;
 }
 
 .icon-facebook {
-    font-size: 58px;
+    font-size: 3.5rem;
 }
 
 .icon-twitter {
-    font-size: 54px;
+    font-size: 3.5rem;
 }
 
 .icon-instagram {
-    font-size: 54px;
+    font-size: 3.6rem;
 }
 
 .icon-youtube {
-    font-size: 60px;
+    font-size: 3.5rem;
 }
 
 hr {
-    background-color: #eeeeee;
-    border-color: #eeeeee;
+    background-color: var(--blanco);
+    border-color: var(--blanco);
     height: 2PX;
     width: 80%;
-
     padding: 0;
 }
 
-.footer-copyright {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-}
 
 /***************************************/
