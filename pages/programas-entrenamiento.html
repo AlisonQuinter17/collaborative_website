@@ -20,57 +20,48 @@
 </head>
 
 <body class="bg3">
+
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light  nav--color">
-            <a class="navbar-brand text-white" href="#">Navbar</a>
-            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-white justify-content-end navbar-settings " id="navbarNav">
-                <ul class="navbar-nav menu--personalizado">
-                    <li class="nav-item active animation-line ">
-                        <a class="nav-link text-white setings--link " href="#">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item  text-white setings--link">
-                        <a class="nav-link text-white setings--link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link setings--link text-white" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white setings--link" href="#">Disabled</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+
+            <div class="container">
+                <a class="navbar-brand" href="#">Training Online</a>
+
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="dropdown nav-item">
+
+                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false"
+                                href="#">Secciones</a>
+
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="#">Entrenamiento</a>
+                                <a class="dropdown-item" role="presentation" href="#">Nutrición</a>
+                                <a class="dropdown-item" role="presentation" href="#">Programas</a>
+                                <a class="dropdown-item" role="presentation" href="#">Consejos</a>
+                            </div>
+
+                        </li>
+                    </ul><span class="navbar-text actions"> <a class="login" href="#">Iniciar sesion</a>
+                        <a class="btn btn-light action-button" role="button" href="#">Registrarse</a></span>
+                </div>
             </div>
         </nav>
-
-        <!-- <div class=" menu--personalizado ">
-
-            <div class=" d-flex justify-content-center">
-                <a class="nav-link setings--link" href="./index.html">
-                    <h2 class="modal-title">menu</h2>
-                </a>
-            </div>
-            <div class=" d-flex justify-content-center">
-                <a class="nav-link setings--link" href="https://www.google.com/">HOME</a>
-            </div>
-            <div class=" d-flex justify-content-center">
-                <a class="nav-link setings--link" href="#">Teile 1</a>
-            </div>
-            <div class=" d-flex justify-content-center">
-                <a class="nav-link setings--link" href="#">Teile 2</a>
-            </div>
-            <div class=" d-flex justify-content-center">
-                <a class="nav-link setings--link" href="#">Teile 3</a>
-            </div>
-        </div> -->
 
     </header>
     <nav></nav>
     <main>
-        <div class="container p-0">
+        <div class="container p-0 ">
             <div class="row mb-3">
                 <div class="col-xl p-0 relativo ">
                     <div class="box"><img class="img-fluid imagen objet-position"
@@ -83,115 +74,229 @@
             </div>
             <div class="row">
                 <div class="mb-3 p-0 col-md-6 col-lg relativo">
-                    <div class="relativo">
-                        <div class="box"><a href="../pages/programas-principiantes.html">
+                    <div class="relativo ">
+                        <a href="../pages/programas-principiantes.html">
+                            <div class="box p-0 animacion11">
                                 <img class="img-fluid imagen" src="../images/geert-pieters-3RnkZpDqsEI-unsplash.jpg"
                                     alt="">
+                            </div>
+                            <div class="posicion4 absoluto animacion1 w-100 h-100 fondo-negro-tras">
+                                <p class="text-white p-4">
+                                    <strong>
+
+                                        Empieza a entrenar con un programa mensual.
+                                    </strong>
+                                </p>
+                            </div>
+
+                            <div class="absoluto posicion2 bg centrar box2">
+
+                                <h2 class="  tamaño  color">PRINCIPIANTES</h2>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="mb-3 p-0 col-md-6 col-lg relativo">
+                    <div class="relativo">
+
+                        <a href="../pages/programas-cardioyfuerza.html">
+                            <div class="box animacion11">
+                                <img class="img-fluid imagen" src="../images/dylan-nolte-ITDjGji__6Y-unsplash.jpg">
+                            </div>
+                            <div class="posicion4 absoluto animacion1 w-100 h-100 fondo-negro-tras">
+                                <p class="text-white p-4">
+                                    <strong>
+
+                                        Pierde peso con este programa que te hará ganar resistencia.
+                                    </strong>
+                                </p>
+                            </div>
+                            <div class="absoluto posicion2 bg centrar box2">
+
+                                <h2 class="  tamaño  color">CARDIO Y FUERZA</h2>
+
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mb-3 p-0 col-md-6 col-lg">
+                <div class="box animacion11">
+                    <a href="../pages/programas-conpesocorporal.html">
+                        <img class="img-fluid imagen" src="../images/julia-ballew-Gh8QHONEHOE-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="posicion4 absoluto animacion1 w-100 h-100 fondo-negro-tras">
+                    <p class="text-white p-4">
+                        <strong>
+
+                            Trabaja tu fuerza y mejora tu tono muscular sin usar pesas.
+                        </strong>
+                    </p>
+                </div>
+                <div class="absoluto posicion2 bg centrar box2">
+
+                    <h2 class="  tamaño  color">CON PESO CORPORAL</h2>
+                </div>
+            </div>
+            <div class="mb-3 p-0 col-md-6 col-lg">
+                <div class="box animacion11">
+                    <a href="../pages/programas-fortalecimiento.html">
+                        <img class="img-fluid imagen" src="../images/john-fornander-dMWL8V7L8G4-unsplash.jpg" alt="">
+                    </a>
+                </div>
+                <div class="posicion4 absoluto animacion1 w-100 h-100 fondo-negro-tras">
+                    <p class="text-white p-4">
+                        <strong>
+
+                            Fortalece tu cuerpo con este entrenamiento centrado en pesas.
+                        </strong>
+                    </p>
+                </div>
+                <div class="absoluto posicion2 bg centrar box2">
+
+                    <h2 class="  tamaño  color">FORTALECIMIENTO</h2>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Web design</a>
+                                </li>
+                                <li>
+                                    <a href="#">Development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hosting</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Company</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team</a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 item text">
+                            <h3>Training Online</h3>
+                            <p>Praesaen sed lobortis mi. Suspendise vel placerat, Praesaen sed lobortis mi. Suspendise
+                                vel
+                                placerat, Praesaen sed lobortis mi. Suspendise vel placerat</p>
+                        </div>
+                        <div class="col item social">
+                            <a href="#">
+                                <i class="icon ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-snapchat"></i>
                             </a>
                         </div>
-
-                        <div class="absoluto posicion2 bg centrar box2">
-
-                            <h2 class="  tamaño  color">PRINCIPIANTES</h2>
+                    </div>
+                    <p class="copyright">Training Online 2020</p>
+                </div>
+            </footer>
+        </div>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Web design</a>
+                                </li>
+                                <li>
+                                    <a href="#">Development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hosting</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Company</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team</a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 item text">
+                            <h3>Training Online</h3>
+                            <p>Praesaen sed lobortis mi. Suspendise vel placerat, Praesaen sed lobortis mi. Suspendise
+                                vel
+                                placerat, Praesaen sed lobortis mi. Suspendise vel placerat</p>
+                        </div>
+                        <div class="col item social">
+                            <a href="#">
+                                <i class="icon ion-social-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="icon ion-social-snapchat"></i>
+                            </a>
                         </div>
                     </div>
-
-
+                    <p class="copyright">Training Online 2020</p>
                 </div>
-
-                <div class="mb-3 p-0 col-md-6 col-lg">
-                    <div class="box">
-                        <a href="../pages/programas-cardioyfuerza.html">
-                            <img class="img-fluid imagen" src="../images/dylan-nolte-ITDjGji__6Y-unsplash.jpg" </a>
-                                </div> <div class="absoluto posicion2 bg centrar box2">
-
-                            <h2 class="  tamaño  color">CARDIO Y FUERZA</h2>
-                    </div>
-
-                </div>
-                <div class="mb-3 p-0 col-md-6 col-lg">
-                    <div class="box">
-                        <a href="../pages/programas-conpesocorporal.html">
-                            <img class="img-fluid imagen" src="../images/julia-ballew-Gh8QHONEHOE-unsplash.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="absoluto posicion2 bg centrar box2">
-
-                        <h2 class="  tamaño  color">CON PESO CORPORAL</h2>
-                    </div>
-                </div>
-                <div class="mb-3 p-0 col-md-6 col-lg">
-                    <div class="box">
-                        <a href="../pages/programas-fortalecimiento.html">
-                            <img class="img-fluid imagen" src="../images/john-fornander-dMWL8V7L8G4-unsplash.jpg"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="absoluto posicion2 bg centrar box2">
-
-                        <h2 class="  tamaño  color">FORTALECIMIENTO</h2>
-                    </div>
-                </div>
-
-
-
-            </div>
+            </footer>
         </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
     </main>
-    <footer class="footer-main">
-        <div class="footer-content d-flex flex-column  m-0 pl-5">
-            <div class="p-2 ">
-                <h2 class="color-semiwhite icon-text">Entrenamiento:</h2>
-                <h3 class="color-semiwhite icon-text">Principiente <br>
-                    Intermedio <br>
-                    Avanzado</h3>
-            </div>
-            <div class="p-2 ">
-                <h2 class="color-semiwhite icon-text">Nutricion:</h2>
-                <h3 class="color-semiwhite icon-text">xxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxxxxxxx</h3>
-            </div>
-            <div class="p-2">
-                <h2 class="color-semiwhite icon-text">Consejos:</h2>
-                <h3 class="color-semiwhite icon-text">Training <br>
-                    Salud <br>
-                    Belleza</h3>
-            </div>
-            <div class="p-2">
-                <h2 class="color-semiwhite icon-text">Programas:</h2>
-                <h3 class="color-semiwhite icon-text">Princiinante <br>
-                    Cardio y Fuerza <br>
-                    Fortalecimiento</h3>
-            </div>
-            <div class="footercontent-icons p-2">
-                <h2 class="color-semiwhite icon-text">Siguenos en:</h2>
-                <div class="footer-icons d-flex align-items-center">
-                    <i class="fab fa-facebook-f icon-facebook color-semiwhite px-2"></i>
-                    <i class="fab fa-twitter icon-twitter color-semiwhite px-2"></i>
-                    <i class="fab fa-instagram icon-instagram color-semiwhite px-2"></i>
-                    <i class="fab fa-youtube icon-youtube color-semiwhite px-2"></i>
-                </div>
-            </div>
-
-        </div>
-        <hr>
-
-        <div class="footer-copyright color-semiwhite p-3 text-center">
-            <h5 class="">© Copyright 2020 Training online- All Rights Reserved</h5>
-        </div>
-
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>

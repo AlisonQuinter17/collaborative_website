@@ -104,7 +104,15 @@
         max-height: 360px;
     }
 
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
 
+    .animacion1:hover {
+        opacity: 1;
+
+    }
 
 }
 
