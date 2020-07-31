@@ -87,6 +87,10 @@
         max-height: 360px;
     }
 
+    .opacidad {
+        opacity: 0;
+    }
+
 }
 
 
@@ -114,6 +118,9 @@
 
     }
 
+    .opacidad {
+        opacity: 0;
+    }
 }
 
 
