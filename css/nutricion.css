@@ -18,14 +18,14 @@
 }
 
 .color_button {
-    background-color: #2bb2bb;
+    background-color: white;
     border-color: rgb(127, 255, 227);
     border-radius: 0%;
     margin-bottom: 20px;
 }
 
 .second_button {
-    background-color: #2bb2bb;
+    background-color: white;
     border-color: rgb(127, 255, 227);
     margin: 50px;
 }
@@ -108,6 +108,11 @@
     color: #fff;
     opacity: 0.75;
 }
+
+
+
+
+
 
 .footer-dark .item.social>a:hover {
     opacity: 0.9;
