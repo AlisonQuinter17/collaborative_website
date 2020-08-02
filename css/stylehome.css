@@ -2,15 +2,6 @@
     background-color: #2bb2bb;
 }
 
-.menu--personalizado {
-    position: absolute;
-    width: 100%;
-    background-color: #2bb2bb;
-    top: 100%;
-    left: 0;
-    height: calc(100vh - 25px);
-}
-
 /********* estilos atom **********/
 /* aluz aguamarina */
 .aguamarina {
@@ -25,7 +16,40 @@
     color: #eeeeee;
 }
 
+.content-mp {
+    max-width: 100%;
+}
+
+.tittle-line {
+    position: relative;
+    top: -10px;
+    max-width: 30%;
+}
+
 /*********************************/
+/******** seccion main principal*****/
+.box-card {
+    width: 100%;
+    height: 300px;
+    background-color: darkred;
+}
+
+.tarjeta {
+    display: block;
+    background-color: blue;
+    height: 300px;
+}
+
+.transparent {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    position: relative;
+    bottom: 5rem;
+}
+
+/*************************************/
+/********* seccion atom**********************/
 .footer-main {
     background-color: #272727;
 }
@@ -34,8 +58,6 @@
 .icon-text {
     width: 100%;
 }
-
-
 
 .icon-facebook {
     font-size: 58px;
