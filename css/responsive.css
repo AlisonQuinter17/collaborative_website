@@ -1,10 +1,22 @@
 @media (min-width: 576px) {}
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .tittle-line {
+        max-width: 350px;
+    }
+}
 
 
 @media (min-width: 992px) {
+    .menu--personalizado {
+        /* position: block; */
+        /* width: max-content; */
+        /* background-color: #2bb2bb; */
+        top: 50%;
+
+        height: 0;
+    }
 
     .animation-line {
         /* color: rgb(0, 0, 0); */

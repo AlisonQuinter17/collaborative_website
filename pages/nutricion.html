@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,39 +8,786 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="/css/nutricion.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="../fonts/ionicons.min.css">
+    <link rel=" stylesheet" href="/css/nutricion.css">
+
+    <title>Nutrición</title>
 </head>
 
 <body>
-    <div class="container-md">
-        <div class="dropdown-personal">
 
-            <img src="/images/banana-granola-parfait.jpg" class="img-fluid" alt="Responsive image">
-            <span>Hover on me</span>
+    <div class="sticky-top">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
 
-            <div class="dropdown-contenido">
+            <div class="container">
+                <a class="navbar-brand" href="#">Training Online</a>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti praesentium commodi
-                    error
-                    velit hic officiis laudantium accusantium unde nulla perferendis, excepturi repudiandae, laboriosam
-                    nisi
-                    soluta nobis. Deserunt, error.</p>
-                <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis rem voluptatum dicta.
-                    Magnam
-                    itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio consequuntur hic dolorem,
-                    aut
-                    inventore.</p>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="dropdown nav-item">
+
+                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false"
+                                href="#">Secciones</a>
+
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation">Entrenamiento</a>
+                                <a class="dropdown-item" role="presentation">Nutrición</a>
+                                <a class="dropdown-item" role="presentation">Programas</a>
+                                <a class="dropdown-item" role="presentation">Consejos</a>
+                            </div>
+
+                        </li>
+                    </ul><span class="navbar-text actions"> <a class="login" href="#">Iniciar sesion</a>
+                        <a class="btn btn-light action-button" role="button" href="#">Registrarse</a></span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+    <div class="container-fluid imagen_principal">
+        <img src="/images/imageninicial_nutricion.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-secondary btn-lg btn-block color_button">Explorar</button>
+    </div>
+
+
+    <div>
+
+        <div class="seccion_categorias">
+
+            <div class="row general">
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <img src="/images/manzana.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel">
+                            <span class="nombre_panel">Tips y beneficios</span>
+                        </div>
+
+                        <div class="texto">
+                            <p>Conoce los beneficios que aporta una alimentación saludable y los consejos para
+                                poder
+                                llevarla a cabo. Además, enterate
+                                cuáles son los tres pilares principales para vivir saludablemente. </p>
+
+                            <a href="#">Conocer más.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <img src="/images/dietplan.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel">
+                            <span class="nombre_panel">Planes de nutricion</span>
+                        </div>
+
+                        <div class="texto">
+                            <p>Un plan nutricional personalizado puede convertirse en el mayor aliado para
+                                lograr
+                                aquella meta que tanto deseas, ya que,
+                                junto con el entrenamiento, la alimentación es la clave del éxito para ponerse
+                                en forma.
+                            </p>
+
+                            <a href="#">Conocer más.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <img src="/images/recetasonline.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel">
+                            <span class="nombre_panel">Recetas</span>
+                        </div>
+
+                        <div class="texto">
+                            <p>Alimentarse saludablemente implica aportar todos los nutrientes esenciales al
+                                organismo.
+                                Los hidratos de carbono, las
+                                proteínas, las grasas, las vitaminas, minerales y el agua en cantidad adecuada.
+                            </p>
+
+                            <a href="#">Conocer más.</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+        </div>
+        <div class="seccion_descripcion">
+
+            <h1 class="title1">Alimentación Saludable</h1>
+
+            <div class="sugerencias">
+                <!--
+                <a class="twitter-timeline" data-lang="es" data-width="500" data-height="960"
+                    href="https://twitter.com/Nutricion?ref_src=twsrc%5Etfw">Tweets by
+                    Nutricion</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+
+                <a class="twitter-timeline" data-lang="es" data-width="500" data-height="980" data-theme="dark"
+                    href="https://twitter.com/tunutriologa">Tweets by Nutricion</a>
+
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </div>
+
+            <div class="row texto_descripcion">
+
+                <p>Diariamente, al consumir alimentos no hay conocimiento claro de sus contenidos nutricionales,
+                    calorías, cantidades de
+                    sodio o azúcar y se habla que es preferible consumir más proteínas que harinas o que son
+                    mejores las
+                    dietas recomendadas
+                    por los conocidos o encontradas en páginas de internet que consultar a un especialista.</p>
+
+                <p>Generalizando, se puede decir que la alimentación saludable es aquella que proporciona los
+                    nutrientes
+                    que el cuerpo
+                    necesita para mantener el buen funcionamiento del organismo, conservar o restablecer la
+                    salud,
+                    minimizar el riesgo de
+                    enfermedades, garantizar la reproducción, gestación, lactancia, desarrollo y crecimiento
+                    adecuado.
+                    Para lograrlo, es
+                    necesario el consumo diario de frutas, verduras, cereales integrales, legumbres, leche,
+                    carnes, aves
+                    y pescado y aceite
+                    vegetal en cantidades adecuadas y variadas. Si lo hacemos así, estamos diciendo que tenemos
+                    una
+                    alimentación saludable.</p>
+
+                <p>Pero ¿cómo saber qué aporta cada uno al organismo? Para esto tengamos en cuenta que los
+                    nutrientes
+                    aportados por los
+                    alimentos se clasifican en dos grupos: los <strong>macronutrientes</strong>, del cual hacen
+                    parte
+                    las
+                    <strong>grasas</strong>, los
+                    <strong>carbohidratos</strong>, y las
+                    <strong>proteínas</strong>; y los <strong>micronutrientes</strong> compuestos por los
+                    <strong>minerales</strong> y
+                    las
+                    <strong>vitaminas</strong>.</p>
+
+                <div class="embed-responsive embed-responsive-16by9">
+
+                    <iframe class="embed-responsive-item tamaño_video" src="https://www.youtube.com/embed/ETIwmxTAxB4"
+                        allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="seccion_beneficios">
+
+            <h1 class="title1">Beneficios de una Alimentación Saludable</h1>
+
+            <div class="row">
+            </div>
+
+        </div>
+
+        <div class="seccion_planes">
+            <h1 class="title1">Planes de Nutrición</h1>
+            <div class="row">
+            </div>
+        </div>
+
+        <div class="seccion_recetas">
+            <h1 class="title1">Recetas</h1>
+
+            <div class="row">
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/panqueques-miel.jpg" class="img-fluid receta_img" alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Panqueques con arándanos y miel</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/parfait.jpg" class="img-fluid receta_img" alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Parfait de Yogurt y Frutas</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/tostadas-de-aguacate-huevo.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Tostadas de aguacate y huevo</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/tomate-relleno.jpg" class="img-fluid receta_img" alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Tomates rellenos</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/ensalada-de-pollo.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Ensalada de pollo</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/medallones-de-trigo.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Medallones de trigo</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/filetealimon.jpg" class="img-fluid receta_img" alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Filete de merluza al limón</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <div>
+                                <p>La merluza es uno de los pescados con menor contenido graso</p>
+
+                                <p>- Comprar un filet de merluza, pollo de mar o salmón y prepararlo a la
+                                    plancha.
+                                    Agregar limón una vez que haya
+                                    finalizado su cocción.</p>
+
+                                <p>- Las verduras (cebolla, cebollita de verdeo, zanahoria y espárragos) pueden
+                                    ser
+                                    asados en el horno o salteados con un
+                                    poco de aceite de oliva.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/espaguetis-de-calabacin.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Espaguetis de calabacín</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p> - Para esta receta necesitaremos los siguientes ingredientes: Calabacín, unos
+                                cuantos
+                                Tomates
+                                cherry, Atún o tiras
+                                de pollo, Especias italianas y Queso light.</p>
+
+                            <p> - Cortar la verdura el tiras finas y largas, dejando así un aspecto similar al
+                                de
+                                los
+                                espaguetis. Luego preparamos los
+                                ingredientes que vamos a añadir como condimento y los cocinamos a la plancha en
+                                una
+                                sartén. Cuando ya estén hechos,
+                                añadimos las tiras de calabacín a la sartén, sazonamos con las especias
+                                italianas
+                                que
+                                más nos gusten y removemos hasta
+                                que todo quede bien mezclado.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/burritos-de-verduras.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Burritos de verduras</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p> - Para esta receta necesitaremos los siguientes ingredientes: 1 pimiento verde,
+                                1 pimiento rojo,
+                                1/4 de cebolla,
+                                1 calabacín,
+                                Queso light,
+                                Tortitas integrales</p>
+
+                            <p> - Lo primero será cortar 1 pimiento verde y 1 pimiento rojo en tiras y ponerlos
+                                en
+                                la
+                                sartén con poco aceite (a modo wok). Luego añadiremos, mientras estas verduras
+                                se
+                                hacen,
+                                1/4 de cebolla picada y 1 calabacín
+                                cortado a tiras. Como opción, cuando las verduras ya estén casi hechas, podemos
+                                añadir
+                                un poco de queso
+                                light para darle más sabor. Mientras tanto metemos un par de tortitas integrales
+                                para
+                                fajitas en el microondas
+                                durante 10 sg, y finalmente añadimos todo el wok de verduras dentro de la fajita
+                                y
+                                enrollamos bien para servir.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/brochetas-barbacoa.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Brochetas de verduras</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/sushi-vegetariano.jpg" class="img-fluid receta_img"
+                                alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Sushi Vegetariano</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-md col-md-4">
+                    <div class="dropdown-personal border">
+
+                        <div>
+
+                            <img src="/images/aguas-frutales.jpg" class="img-fluid receta_img" alt="Responsive image">
+
+                            <div class="panel_recetas efecto-gradient">
+                                <span class="nombre_panel_recetas">Aguas frutales</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-contenido">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsam corrupti
+                                praesentium
+                                commodi
+                                error
+                                velit hic officiis laudantium accusantium unde nulla perferendis, excepturi
+                                repudiandae,
+                                laboriosam
+                                nisi
+                                soluta nobis. Deserunt, error.</p>
+                            <p>Iusto tempora ratione earum ducimus, quas est temporibus. At tempora veritatis
+                                rem
+                                voluptatum
+                                dicta.
+                                Magnam
+                                itaque quasi obcaecati tempore nihil asperiores atque iste. Molestiae odio
+                                consequuntur
+                                hic
+                                dolorem,
+                                aut
+                                inventore.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 
 
+    <div class="text-center">
+        <button type="button" class="btn btn-secondary btn-lg second_button">Seguir</button>
+    </div>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Web design</a>
+                            </li>
+                            <li>
+                                <a href="#">Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Hosting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Company</a>
+                            </li>
+                            <li>
+                                <a href="#">Team</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 item text">
+                        <h3>Training Online</h3>
+                        <p>Praesaen sed lobortis mi. Suspendise vel placerat, Praesaen sed lobortis mi.
+                            Suspendise
+                            vel
+                            placerat, Praesaen sed lobortis mi. Suspendise vel placerat</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#">
+                            <i class="icon ion-social-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="icon ion-social-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="icon ion-social-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="icon ion-social-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">Training Online 2020</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
+    </script>
 </body>
 
 </html>
