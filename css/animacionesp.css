@@ -12,3 +12,12 @@
     color: white;
 
 }
+
+
+.animacion-tabla:hover {
+
+
+    color: rgba(43, 178, 187);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(43, 178, 187);
+}
