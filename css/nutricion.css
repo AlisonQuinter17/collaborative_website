@@ -142,14 +142,25 @@
 }
 
 .seccion_beneficios {
-    background-color: #ffffff
+    background-color: rgb(255, 255, 255);
 }
 
 .seccion_planes {
+    margin: auto;
+    width: 90%;
     background-color: rgb(145, 145, 145);
 }
 
+.altura_minima {
+    min-height: 590px;
+    background-color: #f9f6ef;
+}
+
 .dropdown-contenido {
+    background-color: #bebebe7c;
+    font-size: 15px;
+    text-align: justify;
+
     max-height: 0;
     overflow: hidden;
     transition: 1000ms ease-out;
@@ -160,7 +171,7 @@
 }
 
 .tamaño_video {
-    padding: 70px;
+    padding: 65px;
 }
 
 .dropdown-personal:hover .dropdown-contenido {
@@ -205,6 +216,27 @@
     width: 100%;
     top: 0;
     z-index: 2;
+}
+
+@media (min-width: 992px) {
+
+    .animation-line {
+        position: relative;
+    }
+
+    .animation-line:before {
+        position: absolute;
+        bottom: 0;
+        content: "";
+        width: 0;
+        height: 4px;
+        background-color: #eeeeee;
+        transition: all 400ms;
+    }
+
+    .animation-line:hover:before {
+        width: 80%;
+    }
 }
 
 .navigation-clean-button {
