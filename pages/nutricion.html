@@ -8,8 +8,10 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../fonts/ionicons.min.css">
-    <link rel=" stylesheet" href="/css/nutricion.css">
+    <link rel=" stylesheet" href="../css/nutricion.css">
 
     <title>Nutrición</title>
 </head>
@@ -65,7 +67,10 @@
 
                         </li>
                     </ul><span class="navbar-text actions"> <a class="login" href="#">Iniciar sesion</a>
-                        <a class="btn btn-light action-button" role="button" href="#">Registrarse</a></span>
+
+                        <a class="btn btn-light action-button" role="button" data-toggle="modal"
+                            data-target="#modalLogin" href="#">Registrarse</a></span>
+
                 </div>
             </div>
         </nav>
@@ -977,10 +982,65 @@
         </footer>
     </div>
 
+
+
+    <div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modalLogin">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-primary"><i class="fa fa-edit"></i>&nbsp;CREA TU CUENTA</h3><button
+                            type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col padMar margenesCajas">
+                                <p class="text-secondary p-0 m-0 p-2">Para acceder a nuestros productos debes estar
+                                    inscrito
+                                    en nuestro sitio web.</p>
+                            </div>
+                        </div>
+                        <form class="p-4" method="post">
+                            <div class="form-group"><input class="form-control" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b"
+                                    type="email" name="email" placeholder="Correo electrónico" id="emailtxt"></div>
+
+                            <div class="form-group"><input class="form-control"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" type="password"
+                                    name="password" placeholder="Contraseña" id="passwd1"></div>
+
+                            <div class="form-group"><input class="form-control"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" type="password"
+                                    name="password" placeholder="Repetir contraseña"></div>
+
+                            <div class="form-group">
+
+                                <a class="btn btn-primary btn-block" role="button" data-toggle="modal" id="enviar"
+                                    data-target="#modalLogin" href="#">Registrarse</a>
+
+                            </div>
+                            <div class="form-check pb-2"><input class="form-check-input" type="checkbox"
+                                    id="formCheck-1"><label class="form-check-label text-left"
+                                    for="formCheck-1">Recordarme</label></div><a class="forgot" href="#">¿Olvidaste tu
+                                contraseña?</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
     </script>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script id="bs-live-reload" data-sseport="51229" data-lastchange="1596467222550" src="../js/livereload.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
 
 </html>
