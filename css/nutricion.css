@@ -16,12 +16,15 @@
     float: left;
     width: 44%;
     padding: 20px;
+    border-radius: 30px;
 }
 
 .gif_derecha {
     float: right;
-    width: 44%;
+    width: 580px;
+    height: 350px;
     padding: 20px;
+    border-radius: 30px;
 }
 
 .title1 {
@@ -29,6 +32,12 @@
     font-size: 3em;
     font-weight: 400;
     padding: 50px;
+}
+
+.ponte_a_prueba {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .texto {
@@ -128,7 +137,6 @@
 .sugerencias {
     float: right;
     width: 27%;
-    /*border: 2px #91919167 solid;*/
 }
 
 .seccion_categorias {
@@ -137,7 +145,7 @@
 
 .seccion_descripcion {
     margin: auto;
-    width: 90%;
+    width: 85%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -163,9 +171,15 @@
 
 .seccion_beneficios {
     margin: auto;
-    width: 90%;
+    width: 85%;
     background-color: #ffffff;
     text-align: justify;
+}
+
+
+.reteñir_beneficios {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .seccion_planes {
@@ -226,7 +240,35 @@
     margin: 50px;
 }
 
+.titulo_tabla {
+    background-color: rgb(214, 214, 214);
+}
 
+.letra_tabla {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contenedor_tips {
+    text-align: justify;
+    width: 100%;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.tip1 {
+    background-color: #aaaaaa4b;
+    padding: 20px;
+    border-radius: 50px;
+    border: solid rgb(255, 255, 255);
+    font-weight: 450;
+}
+
+.tip1:hover {
+    transition: 1s;
+    background-color: #2bb1bb70;
+    cursor: pointer;
+}
 
 
 
