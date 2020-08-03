@@ -11,8 +11,7 @@
 
     .posicion {
 
-        bottom: 0;
-        left: 60px
+        top: 0;
     }
 
     .box {
@@ -30,10 +29,7 @@
 
 
 
-    .posicion {
 
-        left: 100px;
-    }
 
     .box {
         max-height: 198px;
@@ -55,10 +51,7 @@
         object-position: 0 -50px;
     }
 
-    .posicion {
 
-        left: 190px;
-    }
 
     .box {
         max-height: 250px;
@@ -77,15 +70,28 @@
         object-position: 0 -70px;
     }
 
-    .posicion {
 
-        left: 300px;
-    }
 
     .box {
 
         max-height: 360px;
     }
+
+    .opacidad {
+        opacity: 0;
+    }
+
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .animacion1:hover {
+        opacity: 1;
+
+    }
+
+
 
 }
 
@@ -95,17 +101,26 @@
         object-position: 0 -70px;
     }
 
-    .posicion {
-        left: 400px
-    }
+
 
     .box {
 
         max-height: 360px;
     }
 
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
 
+    .animacion1:hover {
+        opacity: 1;
 
+    }
+
+    .opacidad {
+        opacity: 0;
+    }
 }
 
 
