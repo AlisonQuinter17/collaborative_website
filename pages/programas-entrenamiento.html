@@ -22,8 +22,8 @@
 <body class="bg3">
 
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light nav--color ">
-            <a class="navbar-brand font-weight-bolder text-md-white" href="#">Training Online</a>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color nav--transp p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
             <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,36 +34,39 @@
                 <ul class="navbar-nav mr-auto">
                     <!-- home -->
                     <li class="nav-item active ">
-                        <a class="nav-link text-white animation-line central" href="../index.html">Home <span
+                        <a class="nav-link text-white animation-line central" href="#">Home <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <!-- nutricion -->
                     <li class="nav-item">
                         <a class="nav-link text-white animation-line central" href="#">Nutricion</a>
                     </li>
-                    <!-- programas -->
+                    <!-- tips -->
                     <li class="nav-item">
-                        <a class="nav-link text-white animation-line central"
-                            href="../pages/programas-entrenamiento.html">Programas</a>
+                        <a class="nav-link text-white animation-line central" href="#">Tips</a>
+                    </li>
+                    <!-- programas -->
+                    <li class="nav-item  ">
+                        <a class="nav-link  text-white animation-line central"
+                            href="./pages/programas-entrenamiento.html">
+                            Programas
+                        </a>
+
                     </li>
                     <!-- Entrenamiento -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white animation-line central" href="#"
-                            id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white animation-line central" href="#">
                             Entrenamiento
                         </a>
-                        <div class="dropdown-menu aguamarina" aria-labelledby="navbarDropdown2">
-                            <a class="dropdown-item color-semiwhite " href="#">Action</a>
-                            <a class="dropdown-item color-semiwhite " href="#">Another action</a>
-                            <a class="dropdown-item color-semiwhite " href="#">Something else here</a>
-                        </div>
                     </li>
                 </ul>
                 <div class="nav-item dropdown row align-items-center">
-
-                    <button type="button" class="btn btn-link color-semiwhite aguamarina">Login</button>
-                    <button class="btn btn-dark my-2 my-sm-0 mr-lg-4" type="button">Registrate</button></div>
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Seccion</button>
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrate</button>
+                </div>
             </div>
         </nav>
 
@@ -284,6 +287,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/programas.js"></script>
+    <script src="../indexscript/beginn.js"></script>
 </body>
 
 </html>
