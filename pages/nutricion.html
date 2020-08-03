@@ -18,6 +18,8 @@
 
 <body>
 
+
+
     <div class="sticky-top">
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
 
@@ -34,15 +36,20 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
 
-                        <li class="nav-item" role="presentation"><a class="nav-link animation-line" href="#">Inicio</a>
+                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
+                                href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link animation-line"
                                 href="#">Nutrición</a></li>
 
+                        <li class="nav-item" role="presentation"><a class="nav-link animation-line" href="#">Tips</a>
+                        </li>
+
+
                         <li class="dropdown nav-item">
 
                             <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
-                                aria-expanded="false" href="#">Programas</a>
+                                aria-expanded="false" data-target="menu" href="#">Programas</a>
 
                             <div class="dropdown-menu" role="menu">
                                 <a class="dropdown-item" role="presentation">Entrenamiento</a>
@@ -55,7 +62,7 @@
 
                         <li class="dropdown nav-item">
 
-                            <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
+                            <a id="menu" class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
                                 aria-expanded="false" href="#">Entrenamiento</a>
 
                             <div class="dropdown-menu" role="menu">
@@ -76,8 +83,6 @@
             </div>
         </nav>
     </div>
-
-
 
     <div id="nutricion" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2100">
 
@@ -1233,7 +1238,7 @@
                         <form class="p-4" method="post">
                             <div class="form-group">
                                 <input class="form-control" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" type="email"
-                                    name="email" placeholder="Correo electrónico" id="emaili">
+                                    name="email" placeholder="Correo electrónico" id="emailtxt">
                             </div>
 
                             <div class="form-group"><input class="form-control"
