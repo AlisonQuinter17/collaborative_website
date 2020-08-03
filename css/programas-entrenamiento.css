@@ -3,8 +3,8 @@
 @import 'responsive.ss';
 @import 'stylehome.css';
 @import 'animation.css';
-
-
+@import 'animacionesp.css';
+@import 'nutricion.css';
 
 
 .bg3 {
@@ -77,9 +77,19 @@
     background-color: rgb(222, 222, 222);
 }
 
-.posicion3 {}
+.fondo-negro-tras {
+    background-color: rgba(0, 0, 0, 0.287);
+}
+
+.posicion4 {
+    top: 0
+}
 
 /*******programa principiante*/
 .linkdisable {
     text-decoration: none;
+}
+
+.none {
+    display: none;
 }

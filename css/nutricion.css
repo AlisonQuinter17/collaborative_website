@@ -27,6 +27,26 @@
     border-radius: 30px;
 }
 
+<<<<<<< HEAD
+.color_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+.second_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    margin: 50px;
+}
+
+/* Footer */
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+=======
 .title1 {
     text-align: center;
     font-size: 3em;
@@ -60,6 +80,7 @@
     padding: 4px;
     transition: 1s;
     border-radius: 15px;
+>>>>>>> b5df40a38a6274b257cae866165f57e799d6a1f5
 }
 
 .panel {
@@ -182,10 +203,20 @@
     font-size: 20px;
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+=======
 .seccion_planes {
     margin: auto;
     width: 90%;
     background-color: #ffffff;
+>>>>>>> b5df40a38a6274b257cae866165f57e799d6a1f5
 }
 
 .dropdown-contenido {
@@ -194,6 +225,8 @@
     transition: 1000ms ease-out;
 }
 
+<<<<<<< HEAD
+=======
 .receta_img:hover {
     cursor: pointer;
 }
@@ -301,6 +334,7 @@
     }
 }
 
+>>>>>>> b5df40a38a6274b257cae866165f57e799d6a1f5
 .navigation-clean-button {
     background: #2bb2bb;
     padding-top: .75rem;
