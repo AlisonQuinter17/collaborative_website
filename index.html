@@ -4,95 +4,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/AllStyles.css">
     <title>Training Online</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
-
-
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light  aguamarina">
-            <a class="navbar-brand text-white" href="#">Navbar</a>
-            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color nav--transp p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
+            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-white justify-content-end navbar-settings " id="navbarNav">
-                <ul class="navbar-nav menu--personalizado">
-                    <li class="nav-item active animation-line central ">
-                        <a class="nav-link text-white setings--link " href="#">Home <span
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- home -->
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white animation-line central" href="#">Home <span
                                 class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item animation-line central">
-                        <a class="nav-link text-white setings--link" href="#">Features</a>
+                    <!-- nutricion -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="#">Nutricion</a>
                     </li>
-                    <li class="nav-item animation-line central ">
-                        <a class="nav-link setings--link text-white" href="#">Pricing</a>
+                    <!-- tips -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="#">Tips</a>
                     </li>
-                    <li class="nav-item animation-line central">
-                        <a class="nav-link  text-white setings--link" href="#">Disabled</a>
+                    <!-- programas -->
+                    <li class="nav-item  ">
+                        <a class="nav-link  text-white animation-line central" href="#">
+                            Programas
+                        </a>
+
+                    </li>
+                    <!-- Entrenamiento -->
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white animation-line central" href="#">
+                            Entrenamiento
+                        </a>
                     </li>
                 </ul>
+                <div class="nav-item dropdown row align-items-center">
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Seccion</button>
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrate</button>
+                </div>
             </div>
         </nav>
     </header>
     <main>
 
-    </main>
-    <footer class="footer-main">
-        <div class="footer-content d-flex flex-column  m-0 pl-5">
-            <div class="p-2 ">
-                <h2 class="color-semiwhite icon-text">Entrenamiento:</h2>
-                <h3 class="color-semiwhite icon-text">Principiente <br>
-                    Intermedio <br>
-                    Avanzado</h3>
+        <div class=" content-mp m-0 p-0">
+            <img src="./images/main_principal.jpg" class="img-fluid imagen-principal" alt=" Imagen principal">
+        </div>
+
+        <!-- videos de entrenamiento -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Videos Entrenamiento</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+
+        <div class="container-md py-md-5">
+            <div class="row ">
+                <div class=" col-lg-3 col-md-6 col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_video1.jpg" alt="">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Resistencia</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_video2.jpg" alt="">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">brazos</a> </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_video3.jpg" alt="">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Piernas</a> </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_video4.jpg" alt="">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Abdomen</a>
+                    </div>
+                </div>
+
             </div>
-            <div class="p-2 ">
-                <h2 class="color-semiwhite icon-text">Nutricion:</h2>
-                <h3 class="color-semiwhite icon-text">xxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxx <br>
-                    xxxxxxxxxxxxxxxxxxxx</h3>
+        </div>
+        <!-- seccion de Nutricion -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Nutricion</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+        <div class="container-md py-md-5">
+            <div class="row">
+                <div class=" col-lg-3 col-md-6 col-xs-12  ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_nutricion_1.jpg" alt="bebidas">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Bebidas</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_nutricion_3.jpg" alt="">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Desayuno</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_nutricion_2.jpg" alt="Almuerzo">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Almuerzo</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_nutricion_4.jpg" alt="Cena">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Cena</a>
+                    </div>
+                </div>
+
             </div>
-            <div class="p-2">
-                <h2 class="color-semiwhite icon-text">Consejos:</h2>
-                <h3 class="color-semiwhite icon-text">Training <br>
-                    Salud <br>
-                    Belleza</h3>
-            </div>
-            <div class="p-2">
-                <h2 class="color-semiwhite icon-text">Programas:</h2>
-                <h3 class="color-semiwhite icon-text">Princiinante <br>
-                    Cardio y Fuerza <br>
-                    Fortalecimiento</h3>
-            </div>
-            <div class="footercontent-icons p-2">
-                <h2 class="color-semiwhite icon-text">Siguenos en:</h2>
-                <div class="footer-icons d-flex align-items-center">
-                    <i class="fab fa-facebook-f icon-facebook color-semiwhite px-2"></i>
-                    <i class="fab fa-twitter icon-twitter color-semiwhite px-2"></i>
-                    <i class="fab fa-instagram icon-instagram color-semiwhite px-2"></i>
-                    <i class="fab fa-youtube icon-youtube color-semiwhite px-2"></i>
+        </div>
+        <!-- seccion de consejos -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Consejos</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+        <div class="container-md py-md-5">
+            <div class="row ">
+                <div class=" col-lg-3 col-md-6 col-xs-12  ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_salud-1.jpg" alt="salud_1">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_salud-2.jpg" alt="salud_2">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_belleza_1.jpg" alt="belleza_1">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12 ">
+                    <div class="box-card">
+                        <img class="tarjeta" src="./images/main_belleza_2.jpg" alt="bellesa_2">
+                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
+                    </div>
                 </div>
             </div>
-
         </div>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4 footer-main color-semiwhite">
+        <div class="container-fluid  text-md-left  px-3">
+            <div class="row text-center">
+
+                <div class="col-lg-3 col-md-6 col-xs-12 px-5">
+                    <h5 class="text-uppercase">Entrenamiento</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="color-semiwhite" href="#!">principienate</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">intermedio</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Avanzado</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 ">
+                    <h5 class="text-uppercase">Nutricion</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href=" #!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 ">
+                    <h5 class="text-uppercase">Consejos</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a class="color-semiwhite" href="#!">Traning</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Salud</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Belleza</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <h5 class="text-uppercase">Programas:</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="color-semiwhite" href="#!">principienate</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">intermedio</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Avanzado</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-xs-12 ">
+                    <h5 class="text-uppercase">Siguenos:</h5>
+                    <div class=" d-flex align-items-center justify-content-center">
+                        <i class="fab fa-facebook-square icon-facebook color-semiwhite px-2"></i>
+                        <i class="fab fa-twitter-square icon-twitter color-semiwhite px-2"></i>
+                        <i class="fab fa-youtube-square icon-youtube color-semiwhite px-2"></i>
+                        <i class="fab fa-instagram icon-instagram color-semiwhite px-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <hr>
 
-        <div class="footer-copyright color-semiwhite">
-            <h5>© Copyright 2020 Training online- All Rights Reserved</h5>
+        <div class="d-flex justify-content-center color-semiwhite p-3 text-center">
+            <h5 class="footer-texte-size">© Copyright 2020 Training online- All Rights Reserved</h5>
         </div>
-
     </footer>
-
-
+    <!-- Modal login -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Training Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="mensaje-login" class="alert alert-danger" role="alert" hidden></div>
+                    <form id="registro" action="./index.html" autocomplete="off">
+                        <fieldset class="form-fieldset">
+                            <legend>Login</legend>
+                            <div class="form-group">
+                                <label for="correo">User</label>
+                                <input class="form-control" id="correo" name="correo" autofocus
+                                    placeholder="johnDue@example.com" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" minlength="8" required
+                                    placeholder="Password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                                <small class="form-text text-muted">La comtraseña debe contener al menos 8 caracteres, 1
+                                    letra minuscula, 1 letra mayuscula y 1 numero (puede contener caracteres
+                                    especiales)</small>
+                            </div>
+                            <div class="form-group ">
+                                <button class="btn btn-success btn-block">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -103,6 +302,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <!-- personal script -->
+    <script src="./indexscript/beginn.js"></script>
+    <script src="./indexscript/registro.js"></script>
 </body>
 
 </html>
