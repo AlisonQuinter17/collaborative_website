@@ -13,8 +13,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light nav--color ">
-            <a class="navbar-brand font-weight-bolder text-md-white" href="#">Training Online</a>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color nav--transp p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
             <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,14 +32,19 @@
                     <li class="nav-item">
                         <a class="nav-link text-white animation-line central" href="#">Nutricion</a>
                     </li>
+                    <!-- tips -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="#">Consejos</a>
+                    </li>
                     <!-- programas -->
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle text-white animation-line central" href="#"
                             id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Programas
                         </a>
-                        <div class="dropdown-menu aguamarina" aria-labelledby="navbarDropdown1">
+                        <div id="dropnav1" class="dropdown-menu aguamarina nav--transp"
+                            aria-labelledby="navbarDropdown1">
                             <a class="dropdown-item color-semiwhite " href="#">Action</a>
                             <a class="dropdown-item color-semiwhite " href="#">Another action</a>
                             <a class="dropdown-item color-semiwhite " href="#">Something else here</a>
@@ -52,7 +57,8 @@
                             aria-expanded="false">
                             Entrenamiento
                         </a>
-                        <div class="dropdown-menu aguamarina" aria-labelledby="navbarDropdown2">
+                        <div id="dropnav2" class="dropdown-menu aguamarina nav--transp"
+                            aria-labelledby="navbarDropdown2">
                             <a class="dropdown-item color-semiwhite " href="#">Action</a>
                             <a class="dropdown-item color-semiwhite " href="#">Another action</a>
                             <a class="dropdown-item color-semiwhite " href="#">Something else here</a>
@@ -60,16 +66,20 @@
                     </li>
                 </ul>
                 <div class="nav-item dropdown row align-items-center">
-
-                    <button type="button" class="btn btn-link color-semiwhite aguamarina">Login</button>
-                    <button class="btn btn-dark my-2 my-sm-0 mr-lg-4" type="button">Registrate</button></div>
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Seccion</button>
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrate</button>
+                </div>
             </div>
+
         </nav>
     </header>
     <main>
 
         <div class=" content-mp m-0 p-0">
-            <img src="./images/john-fornander-dMWL8V7L8G4-unsplash.jpg" class="img-fluid" alt=" Imagen principal">
+            <img src="./images/main_principal.jpg" class="img-fluid imagen-principal" alt=" Imagen principal">
         </div>
 
         <!-- videos de entrenamiento -->
@@ -78,7 +88,7 @@
             <hr class="tittle-line m-0 p-0">
         </div>
 
-        <div class="container-fluid">
+        <div class="container-md py-md-5">
             <div class="row ">
                 <div class=" col-lg-3 col-md-6 col-xs-12 ">
                     <div class="box-card">
@@ -110,7 +120,7 @@
             <h2 class="color-semiwhite m-0 p-2 "> Nutricion</h2>
             <hr class="tittle-line m-0 p-0">
         </div>
-        <div class="container-fluid">
+        <div class="container-md py-md-5">
             <div class="row">
                 <div class=" col-lg-3 col-md-6 col-xs-12  ">
                     <div class="box-card">
@@ -144,7 +154,7 @@
             <h2 class="color-semiwhite m-0 p-2 "> Consejos</h2>
             <hr class="tittle-line m-0 p-0">
         </div>
-        <div class="container-fluid">
+        <div class="container-md py-md-5">
             <div class="row ">
                 <div class=" col-lg-3 col-md-6 col-xs-12  ">
                     <div class="box-card">
@@ -259,6 +269,45 @@
             <h5 class="footer-texte-size">© Copyright 2020 Training online- All Rights Reserved</h5>
         </div>
     </footer>
+    <!-- Modal login -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Training Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="mensaje-login" class="alert alert-danger" role="alert" hidden></div>
+                    <form id="registro" action="./index.html" autocomplete="off">
+                        <fieldset class="form-fieldset">
+                            <legend>Login</legend>
+                            <div class="form-group">
+                                <label for="correo">User</label>
+                                <input class="form-control" id="correo" name="correo" autofocus
+                                    placeholder="johnDue@example.com" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" minlength="8" required
+                                    placeholder="Password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                                <small class="form-text text-muted">La comtraseña debe contener al menos 8 caracteres, 1
+                                    letra minuscula, 1 letra mayuscula y 1 numero (puede contener caracteres
+                                    especiales)</small>
+                            </div>
+                            <div class="form-group ">
+                                <button class="btn btn-success btn-block">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -269,6 +318,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <!-- personal script -->
+    <script src="./indexscript/beginn.js"></script>
+    <script src="./indexscript/registro.js"></script>
 </body>
 
 </html>

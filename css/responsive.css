@@ -1,12 +1,22 @@
 @media (min-width: 576px) {
+    .nav-brand {
+        color: var(--blanco);
+    }
+
     .box-card {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+
 }
 
 
 @media (min-width: 768px) {
+    .nav-brand {
+        color: var(--blanco);
+    }
+
     .box-card {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -31,6 +41,9 @@
 
 
 @media (min-width: 992px) {
+    .nav-brand {
+        color: var(--negro);
+    }
 
     .menu--personalizado {
         top: 50%;
@@ -98,7 +111,7 @@
     }
 
     .footer-texte-size {
-        font-size: 2rem;
+        font-size: 0.7rem;
     }
 
 }
