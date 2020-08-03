@@ -1,3 +1,10 @@
+.sidee {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    opacity: 1;
+}
+
 .general {
     margin: auto;
     width: 90%;
@@ -15,6 +22,7 @@
 .texto {
     padding: 40px;
     background-color: #f9f6ef;
+    text-align: justify;
 }
 
 .texto:hover {
@@ -123,6 +131,7 @@
 
 .texto_descripcion {
     padding: 20px;
+    text-align: justify;
 }
 
 .seccion_recetas {
@@ -133,7 +142,7 @@
 }
 
 .seccion_beneficios {
-    background: url(/images/imagen-benefits.jpg);
+    background-color: #ffffff
 }
 
 .seccion_planes {
@@ -159,6 +168,7 @@
     font-size: 15px;
     max-height: 500px;
     padding: 20px;
+    text-align: justify;
 }
 
 .container-md {
@@ -194,7 +204,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navigation-clean-button {
