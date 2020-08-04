@@ -17,84 +17,103 @@
 
     <link rel="shortcut icon" href="../icons/gimnasio.svg">
     <link rel="stylesheet" href="../fonts/ionicons.min.css">
-    <link rel=" stylesheet" href="../css/nutricion.css">
+
 
     <link rel="stylesheet" href="../css/programas-entrenamiento.css">
 </head>
 
 <body>
 
-    <div class="sticky-top">
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-
-            <div class="container">
-                <a class="navbar-brand" href="#">Training Online</a>
-
-                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav mr-auto">
-
-                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
-                                href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
-                                href="../pages/nutricion.html">Nutrición</a></li>
-
-                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
-                                href="../pages/tips.html">Tips</a>
-                        </li>
+    <header class="container-fluid p-0 sticky-top">
 
 
-                        <li class="dropdown nav-item">
+        <nav class="p-2 nav--color d-flex align-items-center justify-content-between d-lg-none">
 
-                            <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
-                                aria-expanded="false" href="../pages/programas-entrenamiento.html">Programas</a>
+            <a href="../pages/programas-entrenamiento.html" class="text-decoration-none"><i
+                    class=" color fas fa-arrow-left"></i></a>
 
-                            <div class="dropdown-menu" role="menu">
-                                <a class="dropdown-item" href="../pages/programas-entrenamiento.html">Programas</a>
-                                <a class="dropdown-item" href="../pages/programas-principiantes.html">Principiantes</a>
-                                <a class="dropdown-item" href="../pages/programas-cardioyfuerza.html">Cardio y
-                                    Fuerza</a>
-                                <a class="dropdown-item" href="../pages/programas-conpesocorporal.html">Peso
-                                    corporal</a>
-                                <a class="dropdown-item" href="../pages/programas-fortalecimiento.html">Fortalecimiento
-                                    muscular</a>
-                            </div>
+            <h1 class="color tamaño m-0">PROGRAMAS DE
+                ENTRENAMIENTO</h1>
+            <a href="../index.html" class="text-decoration-none"><i class="color fas fa-home"></i></a>
 
-                        </li>
 
-                        <li class="dropdown nav-item">
 
-                            <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
-                                aria-expanded="false" href="../pages/entrenamiento.html">Entrenamiento</a>
+        </nav>
 
-                            <div class="dropdown-menu" role="menu">
-                                <a class="dropdown-item" href="../pages/entrenamiento.html">Entrenar</a>
-                                <a class="dropdown-item" href="../pages/principiantes.html">Nivel
-                                    principiantes</a>
-                                <a class="dropdown-item" href="../pages/intermedio.html">Nivel
-                                    Intermedio</a>
-                                <a class="dropdown-item" href="../pages/avanzados.html">Nivel
-                                    Avanzado</a>
-                            </div>
+        <nav id="navbar" class="d-none d-lg-flex navbar navbar-expand-lg navbar-light fixed-top nav--color p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
+            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        </li>
-                    </ul>
-                    <span class="navbar-text actions"> <a class="login" href="#">Iniciar sesión</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- home -->
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white animation-line central" href="/index.html">Inicio<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- nutricion -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central"
+                            href="../pages/nutricion.html">Nutrición</a>
+                    </li>
+                    <!-- tips -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="../pages/tips.html">Tips</a>
+                    </li>
+                    <!-- programas -->
+                    <li class="dropdown nav-item">
 
-                        <a class="btn btn-light action-button" role="button" data-toggle="modal"
-                            data-target="#modalLogin" href="#">Registrarse</a></span>
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/programas-entrenamiento.html">Programas</a>
 
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/programas-entrenamiento.html">Programas</a>
+                            <a class="dropdown-item" href="../pages/programas-principiantes.html">Principiantes</a>
+                            <a class="dropdown-item" href="../pages/programas-cardioyfuerza.html">Cardio y
+                                Fuerza</a>
+                            <a class="dropdown-item" href="../pages/programas-conpesocorporal.html">Peso
+                                corporal</a>
+                            <a class="dropdown-item" href="../pages/programas-fortalecimiento.html">Fortalecimiento
+                                muscular</a>
+                        </div>
+
+                    </li>
+                    <!-- Entrenamiento -->
+                    <li class="dropdown nav-item">
+
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/entrenamiento.html">Entrenamiento</a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/entrenamiento.html">Entrenar</a>
+                            <a class="dropdown-item" href="../pages/principiantes.html">Nivel
+                                principiantes</a>
+                            <a class="dropdown-item" href="../pages/intermedio.html">Nivel
+                                Intermedio</a>
+                            <a class="dropdown-item" href="../pages/avanzados.html">Nivel
+                                Avanzado</a>
+                        </div>
+
+                    </li>
+                </ul>
+                <div class="nav-item dropdown row align-items-center">
+
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Sesión</button>
+
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrarse</button>
                 </div>
             </div>
         </nav>
-    </div>
+
+
+    </header>
 
 
     <main>
@@ -1326,7 +1345,7 @@
                                             <div id="btn" data-toggle="modal" data-target="#exampleModal25"
                                                 class="my-1 text-center ">
 
-                                                Blind workout
+                                                Blind workout piernas
                                             </div>
                                             <div class="modal fade" id="exampleModal25" tabindex="-1" role="dialog"
                                                 aria-labelledby="exampleModalLabel25" aria-hidden="true">
