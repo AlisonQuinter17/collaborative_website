@@ -1,6 +1,6 @@
-*{
+/**{
     background-color:#E0E0E0;
-}
+}*/
 
 .cuerpo-centro {
     text-align: center;
@@ -12,33 +12,34 @@
     padding-bottom: 80px;
 }
 
-.saludo{
+.saludo {
     font-size: 25px;
     padding: 5px;
 }
 
-.agradecimiento{
+.agradecimiento {
     font-size: 20px;
     padding: 5px;
 }
 
-.opciones{
+.opciones {
     font-size: 20px;
     padding: 10px;
     border: 1px solid rgba(2, 245, 43, 0.829);
     border-radius: 10px;
 }
-.saludo{
+
+.saludo {
     font-size: 25px;
     padding: 5px;
 }
 
-.agradecimiento{
+.agradecimiento {
     font-size: 20px;
     padding: 5px;
 }
 
-.opciones{
+.opciones {
     font-size: 20px;
     padding: 10px;
     border: 1px solid rgba(2, 245, 43, 0.829);
@@ -49,6 +50,7 @@
     padding: .75rem 1.25rem;
     border-top: 1px solid rgba(2, 245, 43, 0.829);
 }
+
 .card-footer-personal {
     padding: .75rem 1.25rem;
     border-top: 1px solid rgba(2, 245, 43, 0.829);
