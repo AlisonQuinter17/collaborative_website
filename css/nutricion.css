@@ -13,6 +13,7 @@
 }
 
 .gif_izquierda {
+    display: flex;
     float: left;
     width: 44%;
     padding: 20px;
@@ -20,6 +21,7 @@
 }
 
 .gif_derecha {
+    display: flex;
     float: right;
     width: 580px;
     height: 350px;
@@ -164,6 +166,7 @@
 }
 
 .sugerencias {
+    display: flex;
     float: right;
     width: 27%;
 }
