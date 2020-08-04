@@ -1,7 +1,9 @@
 /* Styles */
+
 html {
     scroll-behavior: smooth;
 }
+
 
 .img-tips {
     width: 100%;
@@ -26,9 +28,15 @@ html {
 
 .card__image:hover {
     transform: scale(1.1);
+
     overflow: hidden;
 }
 
 .box {
     padding: 0 5px 0 5px;
+}
+
+    {
+    overflow: hidden;
+
 }

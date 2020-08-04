@@ -14,6 +14,7 @@
 
 .gif_izquierda {
     display: flex;
+
     float: left;
     width: 44%;
     padding: 20px;
@@ -22,12 +23,14 @@
 
 .gif_derecha {
     display: flex;
+
     float: right;
     width: 580px;
     height: 350px;
     padding: 20px;
     border-radius: 30px;
 }
+
 
 .letra_link {
     color: white;
@@ -36,6 +39,7 @@
 .letra_link:hover {
     color: white;
 }
+
 
 .color_button {
     background-color: white;
@@ -166,7 +170,9 @@
 }
 
 .sugerencias {
+
     display: flex;
+
     float: right;
     width: 27%;
 }

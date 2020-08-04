@@ -6,10 +6,15 @@
 @import 'animacionesp.css';
 
 
+
 body {
     max-width: 2000px;
     margin: auto;
 }
+
+@import 'nutricion.css';
+
+
 
 .bg3 {
     background-color: rgb(238, 238, 238);
@@ -96,6 +101,7 @@ body {
 
 .none {
     display: none;
+
 }
 
 /*++++ nutricion++*/
@@ -644,4 +650,5 @@ body {
     opacity: 0.3;
     font-size: 13px;
     margin-bottom: 0;
+
 }
