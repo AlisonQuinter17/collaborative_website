@@ -1,8 +1,12 @@
 
 
+
+
 html {
     scroll-behavior: smooth;
 }
+
+
 
 
 :root {
@@ -223,11 +227,16 @@ html {
 
 }
 
+
+
+
+
 div p {
     background-color: yellow;
 }
 
  
+
 /*********************************/
 /******** seccion main principal*****/
 .imagen-principal {

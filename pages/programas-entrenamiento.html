@@ -16,14 +16,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 
 
+    <link rel="shortcut icon" href="../icons/gimnasio.svg">
+    <link rel="stylesheet" href="../fonts/ionicons.min.css">
+
+
+
     <link rel="stylesheet" href="../css/programas-entrenamiento.css">
 </head>
 
+
+<body class="bg3 container-fluid p-0">
+
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
 <body class="bg3">
 
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light nav--color ">
             <a class="navbar-brand font-weight-bolder text-md-white" href="#">Training Online</a>
+
             <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,11 +46,56 @@
                 <ul class="navbar-nav mr-auto">
                     <!-- home -->
                     <li class="nav-item active ">
+
+                        <a class="nav-link text-white animation-line central" href="/index.html">Inicio<span
                         <a class="nav-link text-white animation-line central" href="../index.html">Home <span
+
                                 class="sr-only">(current)</span></a>
                     </li>
                     <!-- nutricion -->
                     <li class="nav-item">
+
+                        <a class="nav-link text-white animation-line central"
+                            href="../pages/nutricion.html">Nutrición</a>
+                    </li>
+                    <!-- tips -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="../pages/tips.html">Tips</a>
+                    </li>
+                    <!-- programas -->
+                    <li class="dropdown nav-item">
+
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/programas-entrenamiento.html">Programas</a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/programas-entrenamiento.html">Programas</a>
+                            <a class="dropdown-item" href="../pages/programas-principiantes.html">Principiantes</a>
+                            <a class="dropdown-item" href="../pages/programas-cardioyfuerza.html">Cardio y
+                                Fuerza</a>
+                            <a class="dropdown-item" href="../pages/programas-conpesocorporal.html">Peso
+                                corporal</a>
+                            <a class="dropdown-item" href="../pages/programas-fortalecimiento.html">Fortalecimiento
+                                muscular</a>
+                        </div>
+
+                    </li>
+                    <!-- Entrenamiento -->
+                    <li class="dropdown nav-item">
+
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/entrenamiento.html">Entrenamiento</a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/entrenamiento.html">Entrenar</a>
+                            <a class="dropdown-item" href="../pages/principiantes.html">Nivel
+                                principiantes</a>
+                            <a class="dropdown-item" href="../pages/intermedio.html">Nivel
+                                Intermedio</a>
+                            <a class="dropdown-item" href="../pages/avanzados.html">Nivel
+                                Avanzado</a>
+                        </div>
+
                         <a class="nav-link text-white animation-line central" href="#">Nutricion</a>
                     </li>
                     <!-- programas -->
@@ -58,10 +115,26 @@
                             <a class="dropdown-item color-semiwhite " href="#">Another action</a>
                             <a class="dropdown-item color-semiwhite " href="#">Something else here</a>
                         </div>
+
                     </li>
                 </ul>
                 <div class="nav-item dropdown row align-items-center">
 
+
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Sesión</button>
+
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrarse</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid p-0">
+        <div class="container-fluid">
+            <div class="row mb-3 mt-5">
                     <button type="button" class="btn btn-link color-semiwhite aguamarina">Login</button>
                     <button class="btn btn-dark my-2 my-sm-0 mr-lg-4" type="button">Registrate</button></div>
             </div>
@@ -72,6 +145,7 @@
     <main>
         <div class="container-fluid">
             <div class="row mb-3">
+
                 <div class="col-xl p-0 relativo ">
                     <div class="box"><img class="img-fluid imagen objet-position"
                             src="../images/clem-onojeghuo-n6gnCa77Urc-unsplash.jpg" alt="">
@@ -185,6 +259,121 @@
 
 
     </main>
+
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Ayuda</a>
+                            </li>
+                            <li>
+                                <a href="#">Desarrollo</a>
+                            </li>
+                            <li>
+                                <a href="#">Hosting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Acerca de</h3>
+                        <ul>
+                            <li>
+                                <a href="/pages/nutricion.html">Nutrición</a>
+                            </li>
+                            <li>
+                                <a href="/pages/tips.html">Tips y comunidad</a>
+                            </li>
+                            <li>
+                                <a href="/pages/programas-entrenamiento.html">Programas</a>
+                            </li>
+                            <li>
+                                <a href="../pages/entrenamiento.html">Entrenamiento</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 item text">
+                        <h3>Training Online</h3>
+                        <p>Bienvenid@ a Training Online, nos dedicamos a salud y al entrenamiento de nuestros usuarios,
+                            no dudes en unirte a nosotros! </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.facebook.com/gymvirtual">
+                            <i class="icon ion-social-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/GymVirtual_com">
+                            <i class="icon ion-social-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gymvirtual_com/?hl=es-la">
+                            <i class="icon ion-social-instagram"></i>
+                        </a>
+                        <a href="https://www.snapchat.com/l/es/">
+                            <i class="icon ion-social-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">Training Online 2020</p>
+            </div>
+        </footer>
+    </div>
+
+    <div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modalLogin">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-primary">
+                            <i class="fa fa-edit"></i>&nbsp;CREA TU CUENTA</h3>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col padMar margenesCajas">
+
+                                <p class="text-secondary p-0 m-0 p-2">Para acceder a nuestra comunidad debes estar
+                                    inscrito
+                                    en nuestro sitio web.</p>
+
+                            </div>
+                        </div>
+
+                        <form class="p-4" method="post">
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email"
+                                    pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" placeholder="Correo electrónico"
+                                    id="emailtxt">
+                            </div>
+
+                            <div class="form-group"><input class="form-control" type="password" name="password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                                    placeholder="Contraseña" id="passwd1">
+                            </div>
+
+                            <div class="form-group"><input class="form-control" type="password" name="password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                                    placeholder="Repetir contraseña">
+                            </div>
+
+                            <div class="form-group">
+                                <a class="btn btn-primary btn-block" role="button" data-toggle="modal" id="enviar"
+                                    data-target="#modalLogin" href="#">Registrarse</a>
+                            </div>
+
+                            <div class="form-check pb-2">
+                                <input class="form-check-input" type="checkbox" id="formCheck-1">
+                                <label class="form-check-label text-left" for="formCheck-1">Recordarme</label>
+                            </div>
+                            <a class="forgot" href="#">¿Olvidaste tu contraseña?</a>
+                        </form>
     <footer class="page-footer font-small  pt-4 footer-main color-semiwhite">
         <div class="container-fluid  text-md-left  px-3">
             <div class="row text-center">
@@ -264,10 +453,15 @@
                         <i class="fab fa-twitter-square icon-twitter color-semiwhite px-2"></i>
                         <i class="fab fa-youtube-square icon-youtube color-semiwhite px-2"></i>
                         <i class="fab fa-instagram icon-instagram color-semiwhite px-2"></i>
+
                     </div>
                 </div>
             </div>
         </div>
+
+    </div>
+
+
 
         <hr>
 
@@ -275,6 +469,7 @@
             <h5 class="footer-texte-size">© Copyright 2020 Training online- All Rights Reserved</h5>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -284,6 +479,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script id="bs-live-reload" data-sseport="51229" data-lastchange="1596467222550" src="../js/livereload.js"></script>
+    <script src="../js/modal.js"></script>
+
+
+
 </body>
 
 </html>

@@ -1,5 +1,39 @@
+.espacio {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.card-footer-personal {
+    padding: .75rem 1.25rem;
+    border-top: 1px solid rgba(2, 245, 43, 0.829);
+}
+
+.sombra {
+    box-shadow: 11px 10px 28px 5px rgba(142, 137, 137, 1);
+}
+
+.espacio {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.bienvenida{
+    padding-top: 100px;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 10px black;
+}
+
+.justificacion{
+    padding: 30px;
+    font-size: 17px;
+    text-align: justify;
+}
+
 .cuerpo-centro {
     text-align: center;
+    font-size: 15px;
 }
 
 .espacio {
@@ -8,49 +42,11 @@
     padding-bottom: 80px;
 }
 
-.saludo{
-    font-size: 25px;
-    padding: 5px;
-}
-
-.agradecimiento{
-    font-size: 20px;
-    padding: 5px;
-}
-
-.opciones{
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid rgba(2, 245, 43, 0.829);
-    border-radius: 10px;
-}
-
 .card-footer-personal {
     padding: .75rem 1.25rem;
     border-top: 1px solid rgba(2, 245, 43, 0.829);
 }
 
-.saludo{
-    font-size: 25px;
-    padding: 5px;
-}
-
-.agradecimiento{
-    font-size: 20px;
-    padding: 5px;
-}
-
-.opciones{
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid rgba(2, 245, 43, 0.829);
-    border-radius: 10px;
-}
-
-.card-footer-personal {
-    padding: .75rem 1.25rem;
-    border-top: 1px solid rgba(2, 245, 43, 0.829);
-}
 .sombra {
     box-shadow: 11px 10px 28px 5px rgba(142, 137, 137, 1);
 }
