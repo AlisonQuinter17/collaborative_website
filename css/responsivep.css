@@ -7,7 +7,9 @@
 
     }
 
-
+    .objet-position {
+        object-position: 0 20px;
+    }
 
     .posicion {
 
@@ -15,7 +17,7 @@
     }
 
     .box {
-        max-height: 198px;
+        max-height: 300px;
     }
 
 }
@@ -32,7 +34,7 @@
 
 
     .box {
-        max-height: 198px;
+        max-height: 300px;
     }
 
 }
@@ -48,13 +50,13 @@
     }
 
     .objet-position {
-        object-position: 0 -50px;
+        object-position: 0 -10px;
     }
 
 
 
     .box {
-        max-height: 250px;
+        max-height: 350px;
     }
 
 }
@@ -74,7 +76,7 @@
 
     .box {
 
-        max-height: 360px;
+        max-height: 400px;
     }
 
     .opacidad {
@@ -91,6 +93,9 @@
 
     }
 
+    .animacion2:hover {
+        background-color: rgba(231, 242, 243, 0.452);
+    }
 
 
 }
@@ -105,7 +110,7 @@
 
     .box {
 
-        max-height: 360px;
+        max-height: 500px;
     }
 
     .animacion1 {
