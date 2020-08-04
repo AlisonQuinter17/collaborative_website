@@ -1,11 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/AllStyles.css">
+    <link rel="stylesheet" href="../fonts/ionicons.min.css">
+    <link rel="shortcut icon" href="./icons/gimnasio.svg">
+
+    <title>Training Online</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 </head>
+
 <body>
-    
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color nav--transp p-4 ">
+            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
+            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- home -->
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white animation-line central" href="/index.html">Inicio<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- nutricion -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central"
+                            href="./pages/nutricion.html">Nutrición</a>
+                    </li>
+                    <!-- tips -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central" href="./pages/tips.html">Tips</a>
+                    </li>
+                    <!-- programas -->
+                    <li class="dropdown nav-item">
+
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/programas-entrenamiento.html">Programas</a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/programas-entrenamiento.html">Programas</a>
+                            <a class="dropdown-item" href="../pages/programas-principiantes.html">Principiantes</a>
+                            <a class="dropdown-item" href="../pages/programas-cardioyfuerza.html">Cardio y
+                                Fuerza</a>
+                            <a class="dropdown-item" href="../pages/programas-conpesocorporal.html">Peso
+                                corporal</a>
+                            <a class="dropdown-item" href="../pages/programas-fortalecimiento.html">Fortalecimiento
+                                muscular</a>
+                        </div>
+
+                    </li>
+                    <!-- Entrenamiento -->
+                    <li class="dropdown nav-item">
+
+                        <a class="dropdown-toggle nav-link text-white animation-line central" data-toggle="dropdown"
+                            aria-expanded="false" href="../pages/entrenamiento.html">Entrenamiento</a>
+
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" href="../pages/entrenamiento.html">Entrenar</a>
+                            <a class="dropdown-item" href="../pages/principiantes.html">Nivel
+                                principiantes</a>
+                            <a class="dropdown-item" href="../pages/intermedio.html">Nivel
+                                Intermedio</a>
+                            <a class="dropdown-item" href="../pages/avanzados.html">Nivel
+                                Avanzado</a>
+                        </div>
+
+                    </li>
+                </ul>
+                <div class="nav-item dropdown row align-items-center">
+
+                    <button id="button-login" type="button"
+                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
+                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Sesión</button>
+
+                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
+                        type="button">Registrarse</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class=" content-mp m-0 p-0">
+            <img src="./images/main_principal.jpg" class="img-fluid imagen-principal" alt=" Imagen principal">
+        </div>
+
+        <!-- videos de entrenamiento -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Videos Entrenamiento</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+
+        <div class="container-fluid">
+            <div class="container-md py-md-5">
+                <div class="row ">
+                    <div class=" col-lg-3 col-md-6 col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_video1.jpg" alt="">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Resistencia</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_video2.jpg" alt="">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">brazos</a> </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_video3.jpg" alt="">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Piernas</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_video4.jpg" alt="">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Abdomen</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- seccion de Nutricion -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Nutricion</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+        <div class="container-fluid">
+            <div class="container-md py-md-5">
+                <div class="row">
+                    <div class=" col-lg-3 col-md-6 col-xs-12  ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_nutricion_1.jpg" alt="bebidas">
+                            <a class="btn btn-light color-semiwhite box-botton" href="./pages/nutricion.html"
+                                role="button">Bebidas</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_nutricion_3.jpg" alt="">
+                            <a class="btn btn-light color-semiwhite box-botton" href="./pages/nutricion.html"
+                                role="button">Desayuno</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_nutricion_2.jpg" alt="Almuerzo">
+                            <a class="btn btn-light color-semiwhite box-botton" href="./pages/nutricion.html"
+                                role="button">Almuerzo</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_nutricion_4.jpg" alt="Cena">
+                            <a class="btn btn-light color-semiwhite box-botton" href="./pages/nutricion.html"
+                                role="button">Cena</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seccion de consejos -->
+        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
+            <h2 class="color-semiwhite m-0 p-2 "> Consejos</h2>
+            <hr class="tittle-line m-0 p-0">
+        </div>
+        <div class="container-fluid">
+            <div class="container-md py-md-5">
+                <div class="row ">
+                    <div class=" col-lg-3 col-md-6 col-xs-12  ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_salud-1.jpg" alt="salud_1">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_salud-2.jpg" alt="salud_2">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_belleza_1.jpg" alt="belleza_1">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  col-xs-12 ">
+                        <div class="box-card">
+                            <img class="tarjeta" src="./images/main_belleza_2.jpg" alt="bellesa_2">
+                            <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Ayuda</a>
+                            </li>
+                            <li>
+                                <a href="#">Desarrollo</a>
+                            </li>
+                            <li>
+                                <a href="#">Hosting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Acerca de</h3>
+                        <ul>
+                            <li>
+                                <a href="/pages/nutricion.html">Nutrición</a>
+                            </li>
+                            <li>
+                                <a href="/pages/tips.html">Tips y comunidad</a>
+                            </li>
+                            <li>
+                                <a href="/pages/programas-entrenamiento.html">Programas</a>
+                            </li>
+                            <li>
+                                <a href="../pages/entrenamiento.html">Entrenamiento</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 item text">
+                        <h3>Training Online</h3>
+                        <p>Bienvenid@ a Training Online, nos dedicamos a salud y al entrenamiento de nuestros usuarios,
+                            no dudes en unirte a nosotros! </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.facebook.com/gymvirtual">
+                            <i class="icon ion-social-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/GymVirtual_com">
+                            <i class="icon ion-social-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gymvirtual_com/?hl=es-la">
+                            <i class="icon ion-social-instagram"></i>
+                        </a>
+                        <a href="https://www.snapchat.com/l/es/">
+                            <i class="icon ion-social-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">Training Online 2020</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal login -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Training Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="mensaje-login" class="alert alert-danger" role="alert" hidden></div>
+                    <form id="registro" action="./index.html" autocomplete="off">
+                        <fieldset class="form-fieldset">
+                            <legend>Iniciar Sesión</legend>
+                            <div class="form-group">
+                                <label for="correo">Correo Electrónico</label>
+                                <input class="form-control" id="correo" name="correo" autofocus
+                                    placeholder="johnDue@example.com" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Constraseña</label>
+                                <input type="password" class="form-control" id="password" minlength="8" required
+                                    placeholder="Password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                                <small class="form-text text-muted">La contraseña debe contener al menos 8 carácteres, 1
+                                    letra minuscula, 1 letra mayuscula y 1 número (puede contener caracteres
+                                    especiales)</small>
+                            </div>
+                            <div class="form-group ">
+                                <button class="btn btn-success btn-block">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- personal script -->
+    <script src="./indexscript/beginn.js"></script>
+    <script src="./indexscript/registro.js"></script>
 </body>
+
 </html>

@@ -1,15 +1,15 @@
-*{
+/**{
     background-color: #E0E0E0;;
-}
+}*/
 
-.espacio{
+.espacio {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 80px;
 }
 
-.sombra{
-    box-shadow: 11px 10px 28px 5px rgba(142,137,137,1);
+.sombra {
+    box-shadow: 11px 10px 28px 5px rgba(142, 137, 137, 1);
 }
 
 /***********seccion navbar*****************/

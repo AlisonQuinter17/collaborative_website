@@ -1,0 +1,23 @@
+.hermano2 {
+    display: none;
+    transition-duration: display 600ms;
+}
+
+.hermano1:hover+.hermano2 {
+    display: block;
+}
+
+.hermano1:hover {
+    background-color: rgba(43, 178, 187);
+    color: white;
+
+}
+
+
+.animacion-tabla:hover {
+
+
+    color: rgba(43, 178, 187);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(43, 178, 187);
+}

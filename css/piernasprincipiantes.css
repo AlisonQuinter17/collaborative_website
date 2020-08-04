@@ -1,12 +1,12 @@
-*{
+/**{
     background-color: #E0E0E0;
-}
+}*/
 
-.cuerpo-centro{
+.cuerpo-centro {
     text-align: center;
 }
 
-.espacio{
+.espacio {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 80px;
@@ -17,8 +17,8 @@
     border-top: 1px solid rgba(2, 245, 43, 0.829);
 }
 
-.sombra{
-    box-shadow: 11px 10px 28px 5px rgba(142,137,137,1);
+.sombra {
+    box-shadow: 11px 10px 28px 5px rgba(142, 137, 137, 1);
 }
 
 /***********seccion navbar*****************/

@@ -1,0 +1,143 @@
+@media (min-width: 320px) {
+
+
+
+    .size {
+        font-size: 15px;
+
+    }
+
+    .objet-position {
+        object-position: 0 20px;
+    }
+
+    .posicion {
+
+        top: 0;
+    }
+
+    .box {
+        max-height: 300px;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+    .size {
+        font-size: 20px;
+
+    }
+
+
+
+
+
+    .box {
+        max-height: 300px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .size {
+        font-size: 24px;
+
+    }
+
+    .objet-position {
+        object-position: 0 -10px;
+    }
+
+
+
+    .box {
+        max-height: 350px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .size {
+        font-size: 30px;
+
+    }
+
+    .objet-position {
+        object-position: 0 -70px;
+    }
+
+
+
+    .box {
+
+        max-height: 400px;
+    }
+
+    .opacidad {
+        opacity: 0;
+    }
+
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .animacion1:hover {
+        opacity: 1;
+
+    }
+
+    .animacion2:hover {
+        background-color: rgba(231, 242, 243, 0.452);
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .objet-position {
+        object-position: 0 -70px;
+    }
+
+
+
+    .box {
+
+        max-height: 500px;
+    }
+
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .animacion1:hover {
+        opacity: 1;
+
+    }
+
+    .opacidad {
+        opacity: 0;
+    }
+}
+
+
+
+
+/*
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
