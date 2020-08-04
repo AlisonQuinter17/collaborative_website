@@ -27,6 +27,13 @@
     border-radius: 30px;
 }
 
+.letra_link {
+    color: white;
+}
+
+.letra_link:hover {
+    color: white;
+}
 
 .color_button {
     background-color: white;
