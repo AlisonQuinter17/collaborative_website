@@ -1,7 +1,9 @@
 @media (min-width: 576px) {
+
     .nav-brand {
         color: var(--blanco);
     }
+
 
     .box-card {
         margin-top: 1rem;
@@ -9,10 +11,15 @@
     }
 
 
+
+
+
 }
 
 
 @media (min-width: 768px) {
+
+
     .nav-brand {
         color: var(--blanco);
     }
@@ -44,6 +51,17 @@
     .nav-brand {
         color: var(--negro);
     }
+
+    .menu--personalizado {
+        top: 50%;
+        height: 0;
+    }
+
+
+    .nav-brand {
+        color: var(--negro);
+    }
+
 
     .menu--personalizado {
         top: 50%;
@@ -111,7 +129,11 @@
     }
 
     .footer-texte-size {
+
+        font-size: 2rem;
+
         font-size: 0.7rem;
+
     }
 
 }

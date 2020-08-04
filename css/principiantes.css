@@ -1,0 +1,264 @@
+/**{
+    background-color:#E0E0E0;
+
+}*/
+
+.cuerpo-centro {
+    text-align: center;
+}
+.espacio{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.saludo{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.agradecimiento{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.opciones{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgba(2, 245, 43, 0.829);
+    border-radius: 10px;
+}
+
+.card-footer-personal {
+    padding: .75rem 1.25rem;
+    border-top: 1px solid rgba(2, 245, 43, 0.829);
+}
+
+.card-footer-personal {
+    padding: .75rem 1.25rem;
+    border-top: 1px solid rgba(2, 245, 43, 0.829);
+}
+
+.sombra {
+    box-shadow: 11px 10px 28px 5px rgba(142, 137, 137, 1);
+}
+
+/***********seccion navbar*****************/
+.dropdown-contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 400ms ease-out;
+}
+
+.dropdown-personal:hover .dropdown-contenido {
+    background-color: rgba(255, 255, 255, 0.459);
+    max-height: 200px;
+}
+
+
+.imagen_principal {
+    padding: 0;
+}
+
+.color_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+.second_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    margin: 50px;
+}
+
+.navigation-clean-button .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+}
+
+.navigation-clean-button .navbar-brand:hover {
+    color: #222;
+}
+
+.navigation-clean-button .navbar-toggler:hover,
+.navigation-clean-button .navbar-toggler:focus {
+    background: none;
+}
+
+.navigation-clean-button .navbar-toggler {
+    color: #888;
+}
+
+.navigation-clean-button .navbar-collapse,
+.navigation-clean-button .form-inline {
+    border-top-color: #ddd;
+}
+
+.navigation-clean-button .navbar-nav a.active,
+.navigation-clean-button .navbar-nav>.show>a {
+    background: none;
+    box-shadow: none;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav a.active,
+.navigation-clean-button.navbar-light .navbar-nav a.active:focus,
+.navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+    color: #ffffff;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+}
+
+.navigation-clean-button.navbar .navbar-nav .nav-link {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+.navigation-clean-button .navbar-nav>li>.dropdown-menu {
+    margin-top: -5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #282d32;
+    border-radius: 2px;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus,
+.navigation-clean-button .dropdown-menu .dropdown-item {
+    line-height: 2;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus,
+.navigation-clean-button .dropdown-menu .dropdown-item:hover {
+    background: #eee;
+    color: inherit;
+}
+
+.navigation-clean-button .actions .login {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation-clean-button .navbar-text .action-button,
+.navigation-clean-button .navbar-text .action-button:active,
+.navigation-clean-button .navbar-text .action-button:hover {
+    background: #282d32;
+    border-radius: 20px;
+    font-size: inherit;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: .5rem 1rem;
+    transition: background-color 0.25s;
+    font-size: inherit;
+}
+
+.navigation-clean-button .navbar-text .action-button:hover {
+    color: #222;
+    background: #e4e4e4;
+}
+
+/********* estilos atom **********/
+/* aluz aguamarina */
+.aguamarina {
+    background-color: var(--azul);
+}
+
+.d-inbl {
+    display: inline-block;
+}
+
+.color-semiwhite {
+    color: var(--blanco);
+}
+
+.content-mp {
+    max-width: 100%;
+}
+
+.tittle-line {
+    position: relative;
+    top: -10px;
+    max-width: 30%;
+}
+
+.footer-texte-size {
+    font-size: 0.75rem;
+}
+
+/*********************************/
+/******** seccion main principal*****/
+.box-card {
+    position: relative;
+    width: 100%;
+
+}
+
+.tarjeta {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-botton {
+    background-color: var(--verde);
+    border-color: var(--verde);
+    border-radius: 2px;
+    width: 30%;
+
+    position: absolute;
+    top: 90%;
+
+    right: 0;
+}
+
+.botton-vermas {
+    text-decoration: none;
+}
+
+/*************************************/
+.footer-main {
+    background-color: var(--negro);
+}
+
+.icon-text {
+    width: 100%;
+}
+
+.icon-facebook {
+    font-size: 3.5rem;
+}
+
+.icon-twitter {
+    font-size: 3.5rem;
+}
+
+.icon-instagram {
+    font-size: 3.6rem;
+}
+
+.icon-youtube {
+    font-size: 3.5rem;
+}
+
+hr {
+    background-color: var(--blanco);
+    border-color: var(--blanco);
+    height: 2PX;
+    width: 80%;
+    padding: 0;
+}

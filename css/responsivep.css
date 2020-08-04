@@ -7,16 +7,17 @@
 
     }
 
-
+    .objet-position {
+        object-position: 0 20px;
+    }
 
     .posicion {
 
-        bottom: 0;
-        left: 60px
+        top: 0;
     }
 
     .box {
-        max-height: 198px;
+        max-height: 300px;
     }
 
 }
@@ -30,13 +31,10 @@
 
 
 
-    .posicion {
 
-        left: 100px;
-    }
 
     .box {
-        max-height: 198px;
+        max-height: 300px;
     }
 
 }
@@ -52,16 +50,13 @@
     }
 
     .objet-position {
-        object-position: 0 -50px;
+        object-position: 0 -10px;
     }
 
-    .posicion {
 
-        left: 190px;
-    }
 
     .box {
-        max-height: 250px;
+        max-height: 350px;
     }
 
 }
@@ -77,15 +72,31 @@
         object-position: 0 -70px;
     }
 
-    .posicion {
 
-        left: 300px;
-    }
 
     .box {
 
-        max-height: 360px;
+        max-height: 400px;
     }
+
+    .opacidad {
+        opacity: 0;
+    }
+
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .animacion1:hover {
+        opacity: 1;
+
+    }
+
+    .animacion2:hover {
+        background-color: rgba(231, 242, 243, 0.452);
+    }
+
 
 }
 
@@ -95,17 +106,26 @@
         object-position: 0 -70px;
     }
 
-    .posicion {
-        left: 400px
-    }
+
 
     .box {
 
-        max-height: 360px;
+        max-height: 500px;
     }
 
+    .animacion1 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
 
+    .animacion1:hover {
+        opacity: 1;
 
+    }
+
+    .opacidad {
+        opacity: 0;
+    }
 }
 
 

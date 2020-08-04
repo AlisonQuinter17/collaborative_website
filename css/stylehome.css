@@ -9,6 +9,140 @@ html {
     --verde: #67BC2A;
 }
 
+.nav--color {
+    background-color: var(--azul);
+}
+
+
+/***********seccion navbar*****************/
+.dropdown-contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 400ms ease-out;
+}
+
+.dropdown-personal:hover .dropdown-contenido {
+    background-color: rgba(255, 255, 255, 0.459);
+    max-height: 200px;
+}
+
+
+.imagen_principal {
+    padding: 0;
+}
+
+.color_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+.second_button {
+    background-color: white;
+    border-color: rgb(127, 255, 227);
+    margin: 50px;
+}
+
+.navigation-clean-button .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+}
+
+.navigation-clean-button .navbar-brand:hover {
+    color: #222;
+}
+
+.navigation-clean-button .navbar-toggler:hover,
+.navigation-clean-button .navbar-toggler:focus {
+    background: none;
+}
+
+.navigation-clean-button .navbar-toggler {
+    color: #888;
+}
+
+.navigation-clean-button .navbar-collapse,
+.navigation-clean-button .form-inline {
+    border-top-color: #ddd;
+}
+
+.navigation-clean-button .navbar-nav a.active,
+.navigation-clean-button .navbar-nav>.show>a {
+    background: none;
+    box-shadow: none;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav a.active,
+.navigation-clean-button.navbar-light .navbar-nav a.active:focus,
+.navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+    color: #ffffff;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+}
+
+.navigation-clean-button.navbar .navbar-nav .nav-link {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+.navigation-clean-button .navbar-nav>li>.dropdown-menu {
+    margin-top: -5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #282d32;
+    border-radius: 2px;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus,
+.navigation-clean-button .dropdown-menu .dropdown-item {
+    line-height: 2;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus,
+.navigation-clean-button .dropdown-menu .dropdown-item:hover {
+    background: #eee;
+    color: inherit;
+}
+
+.navigation-clean-button .actions .login {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation-clean-button .navbar-text .action-button,
+.navigation-clean-button .navbar-text .action-button:active,
+.navigation-clean-button .navbar-text .action-button:hover {
+    background: #282d32;
+    border-radius: 20px;
+    font-size: inherit;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: .5rem 1rem;
+    transition: background-color 0.25s;
+    font-size: inherit;
+}
+
+.navigation-clean-button .navbar-text .action-button:hover {
+    color: #222;
+    background: #e4e4e4;
+}
+
 /********* estilos atom **********/
 /* aluz aguamarina */
 .aguamarina {
@@ -40,6 +174,7 @@ html {
 .footer-texte-size {
     font-size: 0.75rem;
 }
+
 
 /***********seccion navbar*****************/
 .nav--color {
@@ -85,9 +220,8 @@ html {
 
 }
 
-div p {
-    background-color: yellow;
-}
+
+
 
 /*********************************/
 /******** seccion main principal*****/
@@ -107,6 +241,7 @@ div p {
     width: 100%;
     height: 100%;
     overflow: hidden;
+
     object-fit: cover;
 }
 
@@ -114,6 +249,8 @@ div p {
     background-color: var(--verde);
     border-color: var(--verde);
     border-radius: 2px;
+    width: 30%;
+
     width: 40%;
 
     position: absolute;
