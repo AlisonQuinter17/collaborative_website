@@ -15,18 +15,27 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 
+
     <link rel="shortcut icon" href="../icons/gimnasio.svg">
     <link rel="stylesheet" href="../fonts/ionicons.min.css">
 
 
+
     <link rel="stylesheet" href="../css/programas-entrenamiento.css">
 </head>
+
 
 <body class="bg3 container-fluid p-0">
 
     <header>
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top nav--color p-4 ">
             <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
+<body class="bg3">
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light nav--color ">
+            <a class="navbar-brand font-weight-bolder text-md-white" href="#">Training Online</a>
+
             <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,11 +46,15 @@
                 <ul class="navbar-nav mr-auto">
                     <!-- home -->
                     <li class="nav-item active ">
+
                         <a class="nav-link text-white animation-line central" href="/index.html">Inicio<span
+                        <a class="nav-link text-white animation-line central" href="../index.html">Home <span
+
                                 class="sr-only">(current)</span></a>
                     </li>
                     <!-- nutricion -->
                     <li class="nav-item">
+
                         <a class="nav-link text-white animation-line central"
                             href="../pages/nutricion.html">Nutrición</a>
                     </li>
@@ -83,9 +96,30 @@
                                 Avanzado</a>
                         </div>
 
+                        <a class="nav-link text-white animation-line central" href="#">Nutricion</a>
+                    </li>
+                    <!-- programas -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white animation-line central"
+                            href="../pages/programas-entrenamiento.html">Programas</a>
+                    </li>
+                    <!-- Entrenamiento -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white animation-line central" href="#"
+                            id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Entrenamiento
+                        </a>
+                        <div class="dropdown-menu aguamarina" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item color-semiwhite " href="#">Action</a>
+                            <a class="dropdown-item color-semiwhite " href="#">Another action</a>
+                            <a class="dropdown-item color-semiwhite " href="#">Something else here</a>
+                        </div>
+
                     </li>
                 </ul>
                 <div class="nav-item dropdown row align-items-center">
+
 
                     <button id="button-login" type="button"
                         class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
@@ -101,6 +135,17 @@
     <main class="container-fluid p-0">
         <div class="container-fluid">
             <div class="row mb-3 mt-5">
+                    <button type="button" class="btn btn-link color-semiwhite aguamarina">Login</button>
+                    <button class="btn btn-dark my-2 my-sm-0 mr-lg-4" type="button">Registrate</button></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row mb-3">
+
                 <div class="col-xl p-0 relativo ">
                     <div class="box"><img class="img-fluid imagen objet-position"
                             src="../images/clem-onojeghuo-n6gnCa77Urc-unsplash.jpg" alt="">
@@ -215,6 +260,7 @@
 
     </main>
 
+
     <div class="footer-dark">
         <footer>
             <div class="container">
@@ -328,12 +374,101 @@
                             </div>
                             <a class="forgot" href="#">¿Olvidaste tu contraseña?</a>
                         </form>
+    <footer class="page-footer font-small  pt-4 footer-main color-semiwhite">
+        <div class="container-fluid  text-md-left  px-3">
+            <div class="row text-center">
+
+                <div class="col-lg-3 col-md-6 col-xs-12 px-5">
+                    <h5 class="text-uppercase">Entrenamiento</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="color-semiwhite" href="#!">principienate</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">intermedio</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Avanzado</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 ">
+                    <h5 class="text-uppercase">Nutricion</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href=" #!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12 ">
+                    <h5 class="text-uppercase">Consejos</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a class="color-semiwhite" href="#!">Traning</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Salud</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="#!">Belleza</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <h5 class="text-uppercase">Programas:</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="color-semiwhite" href="../pages/programas-principiantes.html">Principiantes</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="../pages/programas-cardioyfuerza.html">Cardio y Fuerza</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite" href="../pages/programas-conpesocorporal.html">Con peso
+                                corporal</a>
+                        </li>
+                        <li>
+                            <a class="color-semiwhite"
+                                href="../pages/programas-fortalecimiento.html">Fortalecimiento</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-xs-12 ">
+                    <h5 class="text-uppercase">Siguenos:</h5>
+                    <div class=" d-flex align-items-center justify-content-center">
+                        <i class="fab fa-facebook-square icon-facebook color-semiwhite px-2"></i>
+                        <i class="fab fa-twitter-square icon-twitter color-semiwhite px-2"></i>
+                        <i class="fab fa-youtube-square icon-youtube color-semiwhite px-2"></i>
+                        <i class="fab fa-instagram icon-instagram color-semiwhite px-2"></i>
+
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
+
+
+        <hr>
+
+        <div class="d-flex justify-content-center color-semiwhite p-3 text-center">
+            <h5 class="footer-texte-size">© Copyright 2020 Training online- All Rights Reserved</h5>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -345,9 +480,11 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
 
+
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script id="bs-live-reload" data-sseport="51229" data-lastchange="1596467222550" src="../js/livereload.js"></script>
     <script src="../js/modal.js"></script>
+
 
 
 </body>

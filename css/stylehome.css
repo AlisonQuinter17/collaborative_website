@@ -1,6 +1,13 @@
+
+
+
+
 html {
     scroll-behavior: smooth;
 }
+
+
+
 
 :root {
     --azul: #2bb2bb;
@@ -222,6 +229,13 @@ html {
 
 
 
+
+
+div p {
+    background-color: yellow;
+}
+
+ 
 
 /*********************************/
 /******** seccion main principal*****/

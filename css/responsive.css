@@ -24,6 +24,9 @@
         color: var(--blanco);
     }
 
+
+
+
     .box-card {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -48,6 +51,7 @@
 
 
 @media (min-width: 992px) {
+
     .nav-brand {
         color: var(--negro);
     }
@@ -56,6 +60,7 @@
         top: 50%;
         height: 0;
     }
+
 
 
     .nav-brand {
