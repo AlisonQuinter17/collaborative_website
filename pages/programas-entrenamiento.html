@@ -14,65 +14,87 @@
 
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+    <link rel="shortcut icon" href="../icons/gimnasio.svg">
     <link rel="stylesheet" href="../fonts/ionicons.min.css">
+    <link rel=" stylesheet" href="../css/nutricion.css">
 
     <link rel="stylesheet" href="../css/programas-entrenamiento.css">
 </head>
 
 <body class="bg3">
 
-    <header>
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-4 nav--color">
-            <a id="logo" class="nav-brand font-weight-bolder text-negro" href="#">Training Online</a>
-            <button class="navbar-toggler bg-white " type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="sticky-top">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <!-- home -->
-                    <li class="nav-item active ">
-                        <a class="nav-link text-white animation-line central" href="../index.html">Inicio<span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <!-- nutricion -->
-                    <li class="nav-item">
-                        <a class="nav-link text-white animation-line central"
-                            href="../pages/nutricion.html">Nutrición</a>
-                    </li>
-                    <!-- tips -->
-                    <li class="nav-item">
-                        <a class="nav-link text-white animation-line central" href="../pages/tips.html">Tips</a>
-                    </li>
-                    <!-- programas -->
-                    <li class="nav-item  ">
-                        <a class="nav-link  text-white animation-line central"
-                            href="../pages/programas-entrenamiento.html">
-                            Programas
-                        </a>
+            <div class="container">
+                <a class="navbar-brand" href="#">Training Online</a>
 
-                    </li>
-                    <!-- Entrenamiento -->
-                    <li class="nav-item ">
-                        <a class="nav-link  text-white animation-line central" href="../pages/entrenamiento.html">
-                            Entrenamiento
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav-item dropdown row align-items-center">
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
 
-                    <button id="button-login" type="button"
-                        class="btn btn-link color-semiwhite transparent-efect button-login aguamarina"
-                        data-toggle="modal" data-target="#staticBackdrop">Iniciar Sesion</button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
 
-                    <button class="btn btn-dark rounded-pill align-middle my-2 my-sm-0 mr-lg-4 "
-                        type="button">Registrarse</button>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+
+                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
+                                href="../pages/nutricion.html">Nutrición</a></li>
+
+                        <li class="nav-item" role="presentation"><a class="nav-link animation-line"
+                                href="../pages/tips.html">Tips</a>
+                        </li>
+
+
+                        <li class="dropdown nav-item">
+
+                            <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
+                                aria-expanded="false" href="../pages/programas-entrenamiento.html">Programas</a>
+
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" href="../pages/programas-entrenamiento.html">Programas</a>
+                                <a class="dropdown-item" href="../pages/programas-principiantes.html">Principiantes</a>
+                                <a class="dropdown-item" href="../pages/programas-cardioyfuerza.html">Cardio y
+                                    Fuerza</a>
+                                <a class="dropdown-item" href="../pages/programas-conpesocorporal.html">Peso
+                                    corporal</a>
+                                <a class="dropdown-item" href="../pages/programas-fortalecimiento.html">Fortalecimiento
+                                    muscular</a>
+                            </div>
+
+                        </li>
+
+                        <li class="dropdown nav-item">
+
+                            <a class="dropdown-toggle nav-link animation-line" data-toggle="dropdown"
+                                aria-expanded="false" href="../pages/entrenamiento.html">Entrenamiento</a>
+
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" href="../pages/entrenamiento.html">Entrenar</a>
+                                <a class="dropdown-item" href="../pages/principiantes.html">Nivel
+                                    principiantes</a>
+                                <a class="dropdown-item" href="../pages/intermedio.html">Nivel
+                                    Intermedio</a>
+                                <a class="dropdown-item" href="../pages/avanzados.html">Nivel
+                                    Avanzado</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <span class="navbar-text actions"> <a class="login" href="#">Iniciar sesión</a>
+
+                        <a class="btn btn-light action-button" role="button" data-toggle="modal"
+                            data-target="#modalLogin" href="#">Registrarse</a></span>
+
                 </div>
             </div>
         </nav>
-    </header>
+    </div>
 
     <main class="container-fluid p-0">
         <div class="container-fluid">
@@ -190,6 +212,7 @@
 
 
     </main>
+
     <div class="footer-dark">
         <footer>
             <div class="container">
@@ -198,7 +221,7 @@
                         <h3>Servicios</h3>
                         <ul>
                             <li>
-                                <a href="#">Diseño Web</a>
+                                <a href="#">Ayuda</a>
                             </li>
                             <li>
                                 <a href="#">Desarrollo</a>
@@ -209,34 +232,38 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
-                        <h3>Acerca</h3>
+                        <h3>Acerca de</h3>
                         <ul>
                             <li>
-                                <a href="#">Compañia</a>
+                                <a href="/pages/nutricion.html">Nutrición</a>
                             </li>
                             <li>
-                                <a href="#">Comunidad</a>
+                                <a href="/pages/tips.html">Tips y comunidad</a>
                             </li>
                             <li>
-                                <a href="#">Carreras</a>
+                                <a href="/pages/programas-entrenamiento.html">Programas</a>
+                            </li>
+                            <li>
+                                <a href="../pages/entrenamiento.html">Entrenamiento</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 item text">
                         <h3>Training Online</h3>
-                        <p>Nosotros somos una compañia dedicada al tema de la salud y el entrenamiento.</p>
+                        <p>Bienvenid@ a Training Online, nos dedicamos a salud y al entrenamiento de nuestros usuarios,
+                            no dudes en unirte a nosotros! </p>
                     </div>
                     <div class="col item social">
-                        <a href="#">
+                        <a href="https://www.facebook.com/gymvirtual">
                             <i class="icon ion-social-facebook"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/GymVirtual_com">
                             <i class="icon ion-social-twitter"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/gymvirtual_com/?hl=es-la">
                             <i class="icon ion-social-instagram"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.snapchat.com/l/es/">
                             <i class="icon ion-social-snapchat"></i>
                         </a>
                     </div>
@@ -245,8 +272,6 @@
             </div>
         </footer>
     </div>
-
-
 
     <div>
         <div class="modal fade" role="dialog" tabindex="-1" id="modalLogin">
@@ -275,18 +300,19 @@
 
                         <form class="p-4" method="post">
                             <div class="form-group">
-                                <input class="form-control" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" type="email"
-                                    name="email" placeholder="Correo electrónico" id="emaili">
+                                <input class="form-control" type="email" name="email"
+                                    pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" placeholder="Correo electrónico"
+                                    id="emailtxt">
                             </div>
 
-                            <div class="form-group"><input class="form-control"
-                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" type="password"
-                                    name="password" placeholder="Contraseña" id="passwd1">
+                            <div class="form-group"><input class="form-control" type="password" name="password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                                    placeholder="Contraseña" id="passwd1">
                             </div>
 
-                            <div class="form-group"><input class="form-control"
-                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" type="password"
-                                    name="password" placeholder="Repetir contraseña">
+                            <div class="form-group"><input class="form-control" type="password" name="password"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                                    placeholder="Repetir contraseña">
                             </div>
 
                             <div class="form-group">
@@ -305,6 +331,7 @@
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -314,9 +341,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
-    <script src="../js/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script id="bs-live-reload" data-sseport="51229" data-lastchange="1596467222550" src="../js/livereload.js"></script>
     <script src="../js/modal.js"></script>
-    <script src="../js/programas.js"></script>
 
 </body>
 
