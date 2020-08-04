@@ -8,9 +8,12 @@
     padding-bottom: 80px;
 }
 
+.bajar{
+    padding-top: 110px;
+}
+
 .saludo {
     font-size: 25px;
-    padding: 5px;
 }
 
 .agradecimiento {
