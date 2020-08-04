@@ -9,9 +9,25 @@
 
 .espacio{
     padding-left: 100px;
-    padding-top: 40px;
     padding-right: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+}
+
+.saludo{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.agradecimiento{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.opciones{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgba(2, 245, 43, 0.829);
+    border-radius: 10px;
 }
 
 .card-footer-personal {
