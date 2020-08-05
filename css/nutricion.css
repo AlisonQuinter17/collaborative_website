@@ -223,13 +223,6 @@
 
 
 
-
-
-
-.footer-dark .item.social>a:hover {
-    opacity: 0.9;
-}
-
 .seccion_planes {
     margin: auto;
     width: 90%;
@@ -270,8 +263,9 @@
 }
 
 .imagen_principal {
-    padding: 0px;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
 
 .color_button {
@@ -322,12 +316,6 @@
 
 
 
-.sticky-top {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 2;
-}
 
 @media (min-width: 992px) {
 
@@ -351,6 +339,12 @@
     }
 }
 
+.sticky-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
 
 .navigation-clean-button {
     background: #2bb2bb;
@@ -477,6 +471,10 @@
     padding: 50px 0;
     color: #f0f9ff;
     background-color: #282d32;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
 }
 
 .footer-dark h3 {
