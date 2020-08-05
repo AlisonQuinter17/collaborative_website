@@ -13,7 +13,6 @@ html {
     background-color: var(--azul);
 }
 
-
 /***********seccion navbar*****************/
 .dropdown-contenido {
     max-height: 0;
@@ -26,9 +25,10 @@ html {
     max-height: 200px;
 }
 
-
 .imagen_principal {
-    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
 
 .color_button {

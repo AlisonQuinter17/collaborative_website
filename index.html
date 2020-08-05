@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/AllStyles.css">
-    <link rel="stylesheet" href="../fonts/ionicons.min.css">
+    <link rel="stylesheet" href="./fonts/ionicons.min.css">
     <link rel="shortcut icon" href="./icons/gimnasio.svg">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
@@ -60,7 +60,7 @@
                             aria-expanded="false" href="./pages/programas-entrenamiento.html">Programas</a>
 
                         <div class="dropdown-menu" role="menu">
-                            <a class="dropdown-item" href="./pages/programas-entrenamiento.html">Programas</a>
+                            <a class="dropdown-item" href="./pages/programas-entrenamiento.html">Rutinas</a>
                             <a class="dropdown-item" href="./pages/programas-principiantes.html">Principiantes</a>
                             <a class="dropdown-item" href="./pages/programas-cardioyfuerza.html">Cardio y
                                 Fuerza</a>
@@ -107,7 +107,6 @@
 
 
     <main>
-
         <div id="home" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2100">
 
             <a id="carrusel"></a>
@@ -162,113 +161,319 @@
         </div>
 
         <div>
-            <button type="button"
-                class="btn btn-secondary btn-lg btn-block color_button dropdown-toggle">Explorar</button>
+            <a href="#entrenamiento">
+                <button type="button"
+                    class="btn btn-secondary btn-lg btn-block color_button dropdown-toggle">Explorar</button>
+            </a>
         </div>
 
 
 
-        <!-- videos de entrenamiento -->
-        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
-            <h2 class="color-semiwhite"> Videos Entrenamiento</h2>
-        </div>
+        <!-- Programas de entrenamiento-->
+        <div class="entrenamiento">
+            <a id="entrenamiento"></a>
+            <h1 class="title1">Programas de entrenamiento</h1>
 
-        <div class="container-md py-md-5">
-            <div class="row ">
-                <div class=" col-lg-3 col-md-6 col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_video1.jpg" alt="">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Resistencia</a>
+            <div class="row general">
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/principiante.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/principiantes.html">
+                                <span class="nombre_panel">Principiante</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Inicias por primera vez el gimnasio y quieres conseguir buenos resultados en poco
+                                tiempo, pues aqui te traemos una excelente rutina para principiantes!</p>
+
+                            <a href="./pages/principiantes.html">¡Entrenar ahora!</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_video2.jpg" alt="">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">brazos</a> </div>
-                </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_video3.jpg" alt="">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Piernas</a> </div>
-                </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_video4.jpg" alt="">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Abdomen</a>
-                    </div>
+                    <hr>
                 </div>
 
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/intermedio.jpeg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/intermedio.html">
+                                <span class="nombre_panel">Intermedio</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p> Sigue al pie de la letra este entrenamiento intermedio y notaras cambios casi
+                                inmediatos, manten tu figura y mejora tu salud!
+                            </p>
+
+                            <a href="./pages/intermedio.html">¡Entrenar ahora!</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/avanzado.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/avanzados.html">
+                                <span class="nombre_panel">Avanzado</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Entrena a un nivel elevado, motivate y tonifica todo tu cuerpo con este entrenamiento
+                                avanzado, los mejores resultados, no te arrepentiras!
+                            </p>
+
+                            <a href="./pages/avanzados.html">¡Entrenar ahora!</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <br>
+            <div class="row general">
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/correr.jpeg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/programas-cardioyfuerza.html">
+                                <span class="nombre_panel">Cardio y Fuerza</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Esta rutina te ayudará a mejorar la coordinación y a elevar el ritmo cardíaco; además,
+                                permiten que una persona realice un entrenamiento de todo el cuerpo en menos tiempo y
+                                refleje los movimientos de la vida real. </p>
+
+                            <a href="./pages/programas-cardioyfuerza.html">¡Entrenar ahora!</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/saltar-cuerda.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/programas-conpesocorporal.html">
+                                <span class="nombre_panel">Peso corporal</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Evita posibles lesiones incorporando a tu rutina semanal de entrenamiento una serie de
+                                ejercicios que fortalezcan la musculatura con esta rutina, excelentes resultados en
+                                menos de un mes!
+                            </p>
+
+                            <a href="./pages/programas-conpesocorporal.html">¡Entrenar ahora!</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/fortalecimiento-.jpeg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/programas-fortalecimiento.html">
+                                <span class="nombre_panel">Fortalecimiento</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Tener los músculos fortalecidos y tonificados es escencial en
+                                tiempos de carrera y evitar lesiones. Para ello, esta rutina con la que
+                                podrás mejorar de forma significativa, excelentes
+                                resultados en menos de un mes!
+                            </p>
+
+                            <a href="./pages/programas-fortalecimiento.html">¡Entrenar ahora!</a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
             </div>
         </div>
+
 
 
         <!-- seccion de Nutricion -->
-        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
-            <h2 class="color-semiwhite"> Nutrición</h2>
-        </div>
-        <div class="container-md py-md-5">
-            <div class="row">
-                <div class=" col-lg-3 col-md-6 col-xs-12">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_nutricion_1.jpg" alt="bebidas">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Bebidas</a>
+        <div class="nutricion">
+
+            <h1 class="title1">Nutrición</h1>
+
+            <div class="row general">
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/benefits.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/nutricion.html">
+                                <span class="nombre_panel">Beneficios</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Conoce los beneficios que aporta una alimentación saludable y los consejos para
+                                poder
+                                llevarla a cabo. </p>
+
+                            <a href="./pages/nutricion.html">¡Conocer más!</a>
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_nutricion_3.jpg" alt="">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Desayuno</a>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/planesnutricion.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/nutricion.html">
+                                <span class="nombre_panel">Planes de nutricion</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Un estilo de vida saludable conlleva muchas decisiones. Entre ellas, la elección de una
+                                dieta o un plan de alimentación equilibrado.
+                            </p>
+
+                            <a href="./pages/nutricion.html">¡Conocer más!</a>
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_nutricion_2.jpg" alt="Almuerzo">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Almuerzo</a>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/cookbook.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/nutricion.html">
+                                <span class="nombre_panel">Recetas</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Estas deliciosas y saludables recetas le ayudarán a crear un plan de
+                                alimentación sano, incluye gran variedad de frutas y verduras, lácteos bajos en
+                                grasa, proteínas y aceite, limitando grasas saturadas etc.
+                            </p>
+
+                            <a href="./pages/nutricion.html">¡Conocer más!</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_nutricion_4.jpg" alt="Cena">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Cena</a>
-                    </div>
+                    <hr>
                 </div>
 
             </div>
         </div>
 
 
-        <!-- seccion de consejos -->
-        <div class=" aguamarina content-mp m-0 py-2 align-text-center ">
-            <h2 class="color-semiwhite"> Consejos</h2>
-        </div>
-        <div class="container-md py-md-5">
-            <div class="row ">
-                <div class=" col-lg-3 col-md-6 col-xs-12">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_salud-1.jpg" alt="salud_1">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+        <!-- seccion de tips y belleza -->
+        <div class="tips">
+
+            <h1 class="title1">Salud y Belleza</h1>
+
+            <div class="row general">
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/drink-of-water.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/tips.html">
+                                <span class="nombre_panel">Tips</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Existen cuidados caseros que pueden ayudarnos a marcar la diferencia para estar hermosas
+                                cada día. Sigue estos consejos y comparte tus resultados!</p>
+                            <a href="./pages/tips.html">¡Conocer más!</a>
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <div class="col-lg-3 col-md-6  col-xs-12">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_salud-2.jpg" alt="salud_2">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Salud</a>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/face-mask.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/tips.html">
+                                <span class="nombre_panel">Mascarillas</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Aumenta las cantidades de vitamina E y C en tu piel, el aporte de oxigeno a los tejidos
+                                para mantenerte rejuvenecida, y disminuye la aparición de las arrugas y de la flacidez
+                                con estas mascarillas!
+                            </p>
+                            <a href="./pages/tips.html">¡Conocer más!</a>
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_belleza_1.jpg" alt="belleza_1">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
+
+                <div class="container-md col-lg-4 col-md-6 col-xs-12">
+                    <div class="dropdown-personal border minimo_box">
+
+                        <img src="./images/rutinas.jpg" class="img-fluid tamaño_img" alt="Responsive image">
+
+                        <div class="panel-verde">
+                            <a class="letra_link" href="./pages/tips.html">
+                                <span class="nombre_panel">Rutinas</span>
+                            </a>
+                        </div>
+
+                        <div class="texto">
+                            <p>Es muy importante llevar a cabo ciertas rutinas en nuestro día a día ya que éstas nos
+                                ayudaran a mejorar diversos ambitos en nuestra salud y vida general.
+                            </p>
+                            <a href="./pages/tips.html">¡Conocer más!</a>
+                        </div>
                     </div>
+                    <hr>
                 </div>
-                <div class="col-lg-3 col-md-6  col-xs-12 ">
-                    <div class="box-card">
-                        <img class="tarjeta" src="./images/main_belleza_2.jpg" alt="bellesa_2">
-                        <a class="btn btn-light color-semiwhite box-botton" href="#" role="button">Belleza</a>
-                    </div>
-                </div>
+
             </div>
         </div>
+
+        <div class="text-center">
+            <a href="/index.html">
+                <button type="button" class="btn btn-secondary btn-lg second_button">Continuar</button>
+            </a>
+        </div>
+
     </main>
 
 
