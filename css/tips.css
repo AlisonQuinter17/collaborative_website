@@ -13,14 +13,6 @@ html {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.418);
 }
 
-.color_sugerencias {
-    background-color: rgb(235, 235, 235);
-}
-
-.letra_sugerencias {
-    font-weight: 700;
-    font-size: 1.3em;
-}
 
 .card__image {
     height: 220px;

@@ -67,7 +67,6 @@
     font-size: 3em;
     font-weight: 400;
     padding: 50px;
-    background-color: #cacaca;
 }
 
 .texto {
@@ -78,4 +77,19 @@
 
 .texto:hover {
     cursor: pointer;
+}
+
+.color_sugerencias {
+    background-color: rgb(235, 235, 235);
+}
+
+.letra_sugerencias {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.centrar_sugerencias {
+    margin: auto;
+    width: 90%;
+    margin-left: 5%;
 }
