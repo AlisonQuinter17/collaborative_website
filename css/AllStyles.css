@@ -1,18 +1,19 @@
+@import 'nav-footer.css';
+@import 'multiple.css';
+@import 'responsive.css';
+/****** General *******/
+
 @import 'layout.css';
 @import 'stylehome.css';
 @import 'animation.css';
-/**** fin Daniel*******/
+/****** fin Daniel *******/
 
-@import 'nav-footer.css';
-@import 'multiple.css';
 @import 'nutricion.css';
-/**** fin Alison*******/
+/****** fin Alison *******/
 
 @import 'tips.css';
-/**** fin Stephany*******/
+/****** fin Stephany *******/
 
 @import 'responsivep.css';
 @import 'animacionesp.css';
-/**** fin Carolina*******/
-
-@import 'responsive.css';
+/****** fin Carolina *******/
